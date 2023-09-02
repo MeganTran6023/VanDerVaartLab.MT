@@ -1,7 +1,10 @@
 # python script from xerxescorrosive
 
-#This code uses openmm, which is essential for running molecular dynamic simulatons.
-#This file is executed on the Linux terminal
+#MT - This code essentially sets up the environment and parameters of a specified sequence using OpenMM. 
+    ## analogous to tuning an instrument- you cannot play a song without all the strings on a violin in tune. We need the aspects of a molecule
+    ## to be in check before we run a simulation on it.
+
+#MT- This file is executed on the Linux terminal
 
 #Further explanation will be added later
 
@@ -11,6 +14,8 @@
 #
 # Simulated the NPT ensemble
 #
+
+#MT - 1) Libraries and packages
 from __future__ import print_function
 from simtk.openmm.app import *
 from simtk.openmm import *
@@ -19,26 +24,30 @@ from sys import stdout
 import numpy as np
 import sys
 
-irun = sys.argv[1]
-sequence = sys.argv[2]
+#MT - 2) Assigning variables
+irun = sys.argv[1] #sys.srg is a list, gets first item rom lsit
+sequence = sys.argv[2] #second item from list, this is our input file to feed the MD simulation
 prev = str(int(irun) - 1)
 
-
+#MT - 3) Setting up parameters (conditions/ features) 
 temp = 300
-timestep = 2.0
-cutoff = 1.2
-printfreq = 5000
+timestep = 2.0 #MT - the time step is the discrete time interval at which the molecular dynamics simulation advances. It is measured in femtoseconds
+cutoff = 1.2 #MT - threshold beyond which nonbonded interactions (e.g., van der Waals and electrostatic interactions) between atoms are considered negligible. (in nm)
+printfreq = 5000 #MT - how often simulation data is printed or saved for analysis
 nsteps = 10000000  # 20 ns run
-nsav_rst = 1000000  # Save every nanosecond
-gamma = 5
+nsav_rst = 1000000  # Save checkpoint file every nanosecond.MT - Checkpoints have state of simulation at specific point, simulation can be continued or reset
+gamma = 5 #MT -(Langevin Thermostat Collision Frequency)  control the temperature of a system during molecular dynamics simulations.
 
+#MT - 4) Checks for CUDA for GPU acceleration, this programming languaage enables multiple calculations to simultaneously occur such as the many graphics that come up during video games.
 print('Checking for CUDA...')
 platform = Platform.getPlatformByName('CUDA')
 properties = {'CudaPrecision': 'mixed'}
 
-prmtop = AmberPrmtopFile('dna-%s.prmtop' % sequence)
-inpcrd = AmberInpcrdFile('noe-%s.rst' % sequence)
+#5)
+prmtop = AmberPrmtopFile('dna-%s.prmtop' % sequence) #MT - creates parameter topology (bond length, angle) file for a DNA molecule
+inpcrd = AmberInpcrdFile('noe-%s.rst' % sequence) #MT - input coordinate file (atom position, atom types, topology )for the molecular system
 
+#6) MT- 9/2
 print ('Setting up system...')
 system = prmtop.createSystem(nonbondedMethod=PME,
     nonbondedCutoff=cutoff*unit.nanometers, constraints=HBonds, rigidWater=True,
@@ -68,4 +77,5 @@ simulation.reporters.append(StateDataReporter(stdout, printfreq, step=True,
                                               temperature=True, density=True, speed=True,
                                               totalSteps=printfreq, separator='\t'))
 
+#MT - 13) initiates molecular dynamics simulation using number of steps defined by nsteps
 simulation.step(nsteps)
