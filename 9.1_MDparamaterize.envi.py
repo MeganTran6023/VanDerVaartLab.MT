@@ -6,7 +6,7 @@
 
 #MT- This file is executed on the Linux terminal
 
-#Further explanation will be added later
+#Further explanation will be added later - finished 9/3
 
 #!/home/emmanuel/mambaforge/bin/python
 
@@ -47,7 +47,7 @@ properties = {'CudaPrecision': 'mixed'}
 prmtop = AmberPrmtopFile('dna-%s.prmtop' % sequence) #MT - creates parameter topology (bond length, angle) file for a DNA molecule
 inpcrd = AmberInpcrdFile('noe-%s.rst' % sequence) #MT - input coordinate file (atom position, atom types, topology )for the molecular system
 
-#6) MT- 9/2
+#6) MT- 9/2 Set up system aka the sequence and its properties itself
 print ('Setting up system...')
 system = prmtop.createSystem(nonbondedMethod=PME, #MT- uses Particle Mesh Ewald (PME) to calculate electrostatic interactions
     nonbondedCutoff=cutoff*unit.nanometers, #MT- program doesnt account for bonds greater than the cutoff value (length), allows GPU to save space to focus on other parts of setting up simulation
@@ -61,23 +61,26 @@ integrator = LangevinIntegrator(temp*unit.kelvin, gamma/unit.picoseconds,
 integrator.setConstraintTolerance(0.000001)
 system.addForce(MonteCarloBarostat(1*unit.atmospheres, temp*unit.kelvin, 25))
 
+#8) Setting up simulation environment
 print('Establishing simulation context...')
 simulation = Simulation(prmtop.topology, system, integrator)#, platform, properties)
 
-if irun == '1' and inpcrd.boxVectors is not None:
-    simulation.context.setPeriodicBoxVectors(*inpcrd.boxVectors)
+#9)
+if irun == '1' and inpcrd.boxVectors is not None: #MT - sets up simulation environment using values provided for the three variables stated below (boxvectors,positions,velocities)
+    simulation.context.setPeriodicBoxVectors(*inpcrd.boxVectors) #MT - xyz axies
     simulation.context.setPositions(inpcrd.positions)
     simulation.context.setVelocities(inpcrd.velocities)
 else:
-    with open(prev+"-"+sequence+'.chk', 'rb') as f: simulation.context.loadCheckpoint(f.read())
+    with open(prev+"-"+sequence+'.chk', 'rb') as f: simulation.context.loadCheckpoint(f.read()) #MT - uses previously saved data on said parameters to open up environment for simulation
 
-simulation.reporters.append(CheckpointReporter(irun+"-"+sequence+'.chk', nsav_rst))
-simulation.reporters.append(DCDReporter(irun+"-"+sequence+'.dcd', printfreq))
+#10) Report data 
+simulation.reporters.append(CheckpointReporter(irun+"-"+sequence+'.chk', nsav_rst)) #MT- save simulation every time interval defined by nsav_rst
+simulation.reporters.append(DCDReporter(irun+"-"+sequence+'.dcd', printfreq)) #MT- save trajectory data as .DCD file
 simulation.reporters.append(StateDataReporter(stdout, printfreq, step=True,
                                               time=True, potentialEnergy=True,
                                               kineticEnergy=True, totalEnergy=True,
                                               temperature=True, density=True, speed=True,
-                                              totalSteps=printfreq, separator='\t'))
+                                              totalSteps=printfreq, separator='\t')) #MT- outputs data for each variable of simulation to console for experimenter(s) to analyze
 
-#MT - 13) initiates molecular dynamics simulation using number of steps defined by nsteps
+#MT - 11) initiates molecular dynamics simulation using number of steps defined by nsteps
 simulation.step(nsteps)
