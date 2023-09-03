@@ -53,9 +53,9 @@ system = prmtop.createSystem(nonbondedMethod=PME,
     nonbondedCutoff=cutoff*unit.nanometers, constraints=HBonds, rigidWater=True,
     ewaldErrorTolerance=0.00005)
 
-print('Choosing integrator...')
+print('Choosing integrator...') #MT - 7) integrator solves equations of motions to setup positions and velocities of particles over time
 integrator = LangevinIntegrator(temp*unit.kelvin, gamma/unit.picoseconds,
-                                timestep*unit.femtoseconds)
+                                timestep*unit.femtoseconds) #MT - temp,collision rate,time step
 integrator.setConstraintTolerance(0.000001)
 system.addForce(MonteCarloBarostat(1*unit.atmospheres, temp*unit.kelvin, 25))
 
