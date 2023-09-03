@@ -51,8 +51,8 @@ inpcrd = AmberInpcrdFile('noe-%s.rst' % sequence) #MT - input coordinate file (a
 print ('Setting up system...')
 system = prmtop.createSystem(nonbondedMethod=PME, #MT- uses Particle Mesh Ewald (PME) to calculate electrostatic interactions
     nonbondedCutoff=cutoff*unit.nanometers, #MT- program doesnt account for bonds greater than the cutoff value (length), allows GPU to save space to focus on other parts of setting up simulation
-    constraints=HBonds, #maintains Hydrogen bonds
-    rigidWater=True, #maintains distances and angles within water molecules. Allows for focusing on solute of interest and reduces computational cost
+    constraints=HBonds, # MT- maintains Hydrogen bonds
+    rigidWater=True, # MT - maintains distances and angles within water molecules. Allows for focusing on solute of interest and reduces computational cost
     ewaldErrorTolerance=0.00005) #MT- error tolerance for  Ewald summation method, lower number  = more accurate, but uses more memory
 
 print('Choosing integrator...') #MT - 7) integrator solves equations of motions to setup positions and velocities of particles over time
