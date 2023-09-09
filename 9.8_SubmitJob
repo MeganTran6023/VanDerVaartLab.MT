@@ -1,0 +1,9 @@
+#On the linux terminal, I learned hwo to submit a job to run a shell script
+
+#Code is below:
+
+#sbatch -J h1UGAG heat.sh gcggcgagcgagcgagcgagg
+
+#h1UGAG is the name of the file we provide for the output of the run
+# the heat.sh script in the terminal directory is what we want to submit
+# gcggcgagcgagcgagcgagg is the DNA sequence the shell script refers to
