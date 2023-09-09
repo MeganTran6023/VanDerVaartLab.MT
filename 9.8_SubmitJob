@@ -1,9 +1,17 @@
-#On the linux terminal, I learned hwo to submit a job to run a shell script
+#1) On the linux terminal, I learned how to submit a job to run a shell script
 
 #Code is below:
 
 #sbatch -J h1UGAG heat.sh gcggcgagcgagcgagcgagg
 
-#h1UGAG is the name of the file we provide for the output of the run
+# h1UGAG is the name of the file we provide for the output of the run
 # the heat.sh script in the terminal directory is what we want to submit
+# gcggcgagcgagcgagcgagg is the DNA sequence the shell script refers to
+
+#2) To submit a job after the first job, a different code must be submitted-
+
+#sbatch -J h2UCGG --dependency=afterok:(previous job's id) ./heat2.sh gcggcgagcgagcgagcgagg
+
+# h2UCGG is the name of the file we provide for the output of the run
+# the heat2.sh script in the terminal directory is what we want to submit
 # gcggcgagcgagcgagcgagg is the DNA sequence the shell script refers to
