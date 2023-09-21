@@ -5,7 +5,7 @@
 #Language: Shell
 
 #Step 1: Create DNA and save it as .pdb file
-fiber -GCGCTTGCTTGCTTGCG TTGC.pdb
+fiber -seq=GCGCTTGCTTGCTTGCG TTGC.pdb
 
 #Step 2: Open file using program Visual Molecular Docking (VMD)
 vmd TTGC.pdb
