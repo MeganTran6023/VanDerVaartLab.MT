@@ -1,5 +1,5 @@
 #!/bin/bash
-#Seperate a double stranded DNA to A and B strand
+#I made this script to Seperate a double stranded DNA to A and B strand
 
 #1- Set input pdb file
 input_pdb="practice_out.pdb"
