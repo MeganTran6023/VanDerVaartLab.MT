@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#reference script: xexecorosive
 #This will be a script to submit my DNA sequence for preprocessing
 
 #!/bin/bash
