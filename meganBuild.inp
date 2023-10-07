@@ -1,0 +1,60 @@
+* charmm strand 1
+
+
+set toppar /Users/megantran/home/charmm/c43b2/stable-release-master/toppar
+
+open unit 1 read card name ###PDB_FILE###
+read sequ pdb unit 1
+
+generate a setup first 5ter last 3ter
+
+patch deo5 a 1 setup
+patch deox a 2 setup
+patch deox a 3 setup
+patch deox a 4 setup
+patch deox a 5 setup
+patch deox a 6 setup
+patch deox a 7 setup
+patch deox a 8 setup
+patch deox a 9 setup
+patch deox a 10 setup
+patch deox a 11 setup
+patch deox a 12 setup
+
+auto angl dihe
+
+read coor pdb unit 1
+close unit 1
+
+open unit 11 read card name ###PDB_FILE###
+read sequ pdb unit 11
+
+generate b setup first 5ter last 3ter
+patch deo5 b 13 setup
+patch deox b 14 setup
+patch deox b 15 setup
+patch deox b 16 setup
+patch deox b 17 setup
+patch deox b 18 setup
+patch deox b 19 setup
+patch deox b 20 setup
+patch deox b 21 setup
+patch deox b 22 setup
+patch deox b 23 setup
+patch deox b 24 setup
+
+auto angl dihe
+
+read coor pdb unit 11 append offset -12
+close unit 11
+
+hbuild select type h* end
+hbuild select type h* end
+
+coor hbon select segid a end select segid b end verb
+
+open unit 1 write card name @seq.cor
+write coor card unit 1
+close unit 1
+
+stop
