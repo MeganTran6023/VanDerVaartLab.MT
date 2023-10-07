@@ -1,7 +1,7 @@
 # VanDerVaartLab.MT
 Journal of code/progress as an undergraduate researcher in the Van Der Vaart Lab at USF in Computational Chemistry.
 
-___10/7___
+## __10/7__
 
 Created loopbuild.sh , meganbuild.inp, and StoreSplitDNA.sh
 
