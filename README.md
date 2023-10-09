@@ -11,5 +11,6 @@ Created loopbuild.sh , meganbuild.inp, and StoreSplitDNA.sh
 
 ## __10/9__
 
-*Created forLoopfiletext.sh
+Created forLoopfiletext.sh
+
 * Practiced making shell script that make directories within a directory using for loop - applicable to making build, prod, and heat file swithin each type of DNA mutation
