@@ -21,7 +21,7 @@ Created newmimiclooper2.sh
 
 *Practiced making files of a change in a string sequence that contain certain files and loop it through each existing directory in my terminal
 
-##__10/13__
+## __10/13__
 
 Created and annotated mimic_looper_heat.sh
 
