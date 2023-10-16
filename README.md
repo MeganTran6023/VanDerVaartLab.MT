@@ -26,3 +26,10 @@ Created newmimiclooper2.sh
 Created and annotated mimic_looper_heat.sh
 
 * Practice on making script that ran multiple jobs simultaneously to prepare DNA for simulation.
+
+## __10/15__
+
+Created and annotated mimic_heating.sh
+
+* Practice on making script that ran heating step to prepare DNA (or some other molecule) for simulation.
+* Purpose of heating step - bring atoms to optimal conditions for simulation (ie appropriate velocity) and allow of accurate modelling of molecules
