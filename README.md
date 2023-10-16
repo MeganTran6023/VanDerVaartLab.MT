@@ -29,6 +29,10 @@ Created and annotated mimic_looper_heat.sh
 
 ## __10/15__
 
+Annotated mimic_looper_heat.sh
+
+* Better understood steps and purpose behind equilibriating a system for simulation
+
 Created and annotated mimic_heating.sh
 
 * Practice on making script that ran heating step to prepare DNA (or some other molecule) for simulation.
