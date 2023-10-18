@@ -41,7 +41,7 @@ Annotated mimic_looper_heat.sh
 * Better understood steps and purpose behind equilibriating a system for simulation
 
 
-## __10/16__
+## __10/18__
 
 Annotated convertRESname.sh
 
