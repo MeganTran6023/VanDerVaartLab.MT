@@ -41,3 +41,8 @@ Annotated mimic_looper_heat.sh
 * Better understood steps and purpose behind equilibriating a system for simulation
 
 
+## __10/16__
+
+Annotated convertRESname.sh
+
+* Better understood bash (sed and awk) in converting keywords ina given .pdb file to appropriate keywords for programs CHARMM and AMBER
