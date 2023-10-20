@@ -39,6 +39,7 @@ Created and annotated mimic_heating.sh
 Annotated mimic_looper_heat.sh
 
 * Better understood steps and purpose behind equilibriating a system for simulation
+* Submitted job for XCUY - failed
 
 
 ## __10/18__
@@ -46,3 +47,4 @@ Annotated mimic_looper_heat.sh
 Annotated convertRESname.sh
 
 * Better understood bash (sed and awk) in converting keywords ina given .pdb file to appropriate keywords for programs CHARMM and AMBER
+  
