@@ -47,4 +47,9 @@ Annotated mimic_looper_heat.sh
 Annotated convertRESname.sh
 
 * Better understood bash (sed and awk) in converting keywords ina given .pdb file to appropriate keywords for programs CHARMM and AMBER
-  
+
+## __10/20__
+
+Annotated renum.sh
+
+* Better understood awk in context of renumbering values under a column given a pdb file to properly format a and b DNA strands
