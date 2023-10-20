@@ -50,6 +50,6 @@ Annotated convertRESname.sh
 
 ## __10/20__
 
-Annotated renum.sh
+Annotated renum.sh and mutate.sh
 
-* Better understood awk in context of renumbering values under a column given a pdb file to properly format a and b DNA strands
+* Better understood awk in context of renumbering values under a column given a pdb file to properly format a and b DNA strands (renum.sh)
