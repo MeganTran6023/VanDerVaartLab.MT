@@ -56,6 +56,6 @@ Annotated renum.sh and mutate.sh
 
 ## __10/23__
 
-Finishing annotating mutate.sh
+Finished annotating mutate.sh
 
-* Better understood awk in context of making a certain uracil base mutation in a DNA strand 
+* Better understood awk and sed in context of making a certain uracil base mutation in a DNA strand 
