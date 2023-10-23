@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#MT - arguments for script
 pdbfile=$1
 convertTo=$2
 convertTo=${convertTo,,}
@@ -9,7 +10,7 @@ bN=$3
 # Correcting typos and modifying some sed and awk commands for functionality
 if [ "$bN" == "7" ]
 then
-## MT- this part is the same thing seen in convertRESname.sh (renaming for CHARMM or AMBER use)
+## MT- this part is similar thing seen in convertRESname.sh (renaming for CHARMM or AMBER use)
     if [[ "$convertTo" =~ "charmm" ]]
     then
         sed -i 's:\ DA:ADE:g; s:\ DC:CYT:g; s:\ DG:GUA:g; s:\ \ U:URA:g; s:\ DT:THY:g' "$pdbfile"
@@ -28,6 +29,13 @@ then
             }' "$pdbfile"
         echo "END" >> "a_$pdbfile"
         echo "END" >> "b_$pdbfile"
+# MT - "if ($6 == 7) gsub($4,"URA")"
+## MT -If the value in column 6 (presumably representing the residue number) is equal to 7,
+# MT - then replace the content in the 4th column (of the same row) with "URA."
+# MT - This operation simulates a uracil mutation in the PDB file.
+
+
+
     elif [[ "$convertTo" =~ "amber" ]]
     then
         sed -i 's:ADE:\ DA:g; s:CYT:\ DC:g; s:GUA:\ DG:g; s:URA:\ \ U:g; s:THY:\ DT:g' "$pdbfile"
@@ -70,6 +78,12 @@ then
             }' "$pdbfile"
         echo "END" >> "a_$pdbfile"
         echo "END" >> "b_$pdbfile"
+## MT - seperates DNA double helix file to seperate strands (strand A and B)
+            # if ($5 == "A")
+            #     print $0 >> a
+            # else
+            #     print $0 >> b
+
     elif [[ "$convertTo" =~ "amber" ]]
     then
         sed -i 's:ADE:\ DA:g; s:CYT:\ DC:g; s:GUA:\ DG:g; s:URA:\ \ U:g; s:THY:\ DT:g' "$pdbfile"
