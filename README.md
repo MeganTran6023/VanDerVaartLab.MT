@@ -59,3 +59,9 @@ Annotated renum.sh and mutate.sh
 Finished annotating mutate.sh
 
 * Better understood awk and sed in context of making a certain uracil base mutation in a DNA strand 
+
+## __10/24__
+
+Worked on submission script for XUCY - edited npt.py and looper-prod.sh
+
+* Learned how to debug issues that prevented the runs from successfully completing
