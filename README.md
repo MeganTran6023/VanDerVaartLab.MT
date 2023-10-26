@@ -65,3 +65,7 @@ Finished annotating mutate.sh
 Worked on submission script for XUCY - edited npt.py and looper-prod.sh
 
 * Learned how to debug issues that prevented the runs from successfully completing
+
+## __10/26__
+
+* Annotated make_noe.sh to better see application of text replacement and AMBER simulations 
