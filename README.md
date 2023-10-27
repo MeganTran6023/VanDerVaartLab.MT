@@ -68,4 +68,8 @@ Worked on submission script for XUCY - edited npt.py and looper-prod.sh
 
 ## __10/26__
 
-* Annotated make_noe.sh to better see application of text replacement and AMBER simulations 
+* Annotated make_noe.sh to better see application of text replacement and AMBER simulations
+
+## __10/27__
+
+* Annotated checkframe.sh to see how to check dcd file by seeing if there are 2000 runs in dcd file
