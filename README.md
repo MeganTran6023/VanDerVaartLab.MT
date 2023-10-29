@@ -75,10 +75,14 @@ Worked on submission script for XUCY - edited npt.py and looper-prod.sh
 * Annotated checkframe.sh to see how to check dcd file by seeing if there are 2000 runs in dcd file
 * Assigned task: make script that loops through each directory and checks each .out files if complete or not. Resubmit incomplete .out files and submit next iteration of completed files.
 
-To practice this, I am making a theoretical situation that mimics this to practice writing the appropriate shell scripts.
+To practice this, I am making a theoretical situation that mimics this to practice writing the appropriate shell scripts. 
 
 1) Make Directories FileA, FileB, FileC
 
 2) Made shell script loopDirectories.sh that added a sample ".out" file to each directory.
 
 3) (In progress) - make script that checks if .out is complete or not.
+
+## __10/29__
+
+1) Worked on loopDirectories.sh step 3 from 10/27. This part is complete.
