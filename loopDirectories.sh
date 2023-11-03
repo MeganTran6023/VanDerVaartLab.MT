@@ -23,8 +23,11 @@ for i in "${directories[@]}"; do
     # Check to see if "complete" is present (if-else statement) within the current directory
     if grep -qw 'complete' *; then
         echo "$i is complete"
-        #makes new file for completes
-        touch output.txt
+        #makes new file for completes using new script in current directory that meets this condition
+        cp /home/megantran/PracticeLooper_MT/newShell.sh .
+	    ./newShell.sh
+
+    	rm newShell.sh
         # Change back to the original directory
         cd "$original_dir" || { echo "Failed to change back to the original directory"; exit 1; }
 
