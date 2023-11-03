@@ -86,3 +86,9 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __10/29__
 
 1) Worked on loopDirectories.sh step 3 from 10/27. This part is complete.
+
+
+## __10/29__
+
+1) Worked on loopDirectories.sh step 3 , coded on how to use a different shell script and incorporate it into another shell script. This is useful when running a shell script in the lab that loops through each directory and runs another shell script to submit jobs for each of the looped directories.
+
