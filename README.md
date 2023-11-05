@@ -95,3 +95,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __11/3__
 
 * Worked on running looper.sh in DNA mutation XCUY while editing gpujob.sh and gpujob.template to ensure looping and job submission.
+
+## __11/4__
+
+* Practiced using vim 
