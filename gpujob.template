@@ -1,0 +1,43 @@
+#!/bin/bash
+#SBATCH --time=10:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH -p snsm_itn19
+#SBATCH --qos=snsm19
+#SBATCH --mem=1024
+
+#Import necessary modules
+module purge
+module load apps/amber/18-19
+module rm apps/python/2.7.17-intel
+
+#variable is the name of file which we want to submit jobs for
+%%IRUN
+name=$2
+
+#uses npt.py script to do a job submission, outputs file called "$irun-$1.out"
+./npt.py $irun $1 > $irun-$1.out
+
+#iterates to next run for job submission
+irun=`expr $irun + 1`
+
+#awk script to submit a new job after initial job is run, output file is gpujob.sh
+awk -v i=$irun '{if($1=="%%IRUN"){print "irun="i;}else{print $0;}}' gpujob.template > gpujob.sh
+
+#Stops job submission when at run 5,else continues to submit job partition 
+if [ $irun -gt 5 ]
+then
+    exit 0
+else
+    sbatch -J $irun-$name gpujob.sh $1 "$name" 
+fi
+
+# Above settings for the script:
+# --time=10:00:00: Specifies a time limit of 10 hours for the job.
+# --nodes=1: Requests one compute node for the job.
+# --ntasks-per-node=1: Specifies that the job should use only one task per node.
+# --gres=gpu:1: Requests one GPU resource for the job.
+# -p snsm_itn19: Specifies the partition or queue (in this case, snsm_itn19) to which the job should be submitted.
+# --qos=snsm19: Sets the Quality of Service (QoS) for the job.
+# --mem=1024: Specifies the amount of memory required for the job (1024 MB or 1 GB).
