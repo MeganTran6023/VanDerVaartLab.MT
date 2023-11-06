@@ -98,4 +98,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/4__
 
-* Practiced using vim 
+* Practiced using vim
+* Created aliases - keyboard shortcuts
+
+## __11/6__
+* annotated gpujob.template to better understand how code works regarding job submission.
