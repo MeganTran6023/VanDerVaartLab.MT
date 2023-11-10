@@ -105,4 +105,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * annotated gpujob.template to better understand how code works regarding job submission.
 
 ## __11/7__
-* worked with a graduate student on fixing looper_heat.sh (circe) 
+* worked with a graduate student on fixing looper_heat.sh (circe)
+
+##__11/10__
+* resolved issue regard why job was not running properly - directory to python path was incorrect.
+* ran shell script to analyse parameters of DNA for production (looper_prod.sh) for XTUY
