@@ -114,3 +114,4 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __11/13__
 * backed up run submissions for analysis w/ -r scp
 * Annotated by remaking looper_prod.sh with MT_looper_prod to understand how each part of code submits jobs for analysis as well as apply stack data structures for managing files
+* ran check.sh with analy.sh and XTUYdata.txt
