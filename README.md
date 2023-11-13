@@ -110,3 +110,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __11/10__
 * resolved issue regard why job was not running properly - directory to python path was incorrect.
 * ran shell script to analyse parameters of DNA for production (looper_prod.sh) for XTUY
+
+## __11/13__
+* backed up run submissions for analysis w/ -r scp
