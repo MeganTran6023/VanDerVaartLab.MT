@@ -119,3 +119,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __11/14__
 * debugged issue why runs for prod failed with graduate student
 ** due to syntax error in gpujob.sh
+
+## __11/15__
+* Analyzed XTUY runs (.pngs) by seeing what failed, note register shift, and successful runs after running analy.sh on DNA sequences
