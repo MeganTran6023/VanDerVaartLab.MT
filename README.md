@@ -122,3 +122,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/15__
 * Analyzed XTUY runs (.pngs) by seeing what failed, note register shift, and successful runs after running analy.sh on DNA sequences
+  
+## __11/17__
+* Used Visual Molecular Dynamics to see DNA sequences where uracil flipping/ register shift is observed
+* Edited gpujob.sh for runs 11 - 20
