@@ -128,3 +128,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * Edited gpujob.sh for runs 11 - 20
 * Learned how to utilize "find" to organize all .dcd and .prmtop files
 * sequence ATTA has potential uracil flipping, need to determine other featurse (resid, etc)
+
+## __11/18__
+* Continued to categorize simulations as fail/not fail, if register shift present in excel using Hbond and Com visuals
