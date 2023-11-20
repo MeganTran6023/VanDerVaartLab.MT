@@ -131,3 +131,9 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/18__
 * Continued to categorize simulations as fail/not fail, if register shift present in excel using Hbond and Com visuals
+
+## __11/19__
+* Updated Excel on DNA simulations (URA resid, time duration register shifts)
+
+## __11/20__
+* Updated continueXTUY.txt using ./looper_prod_continue.sh to update list of sequences that can continue running (ones that did not fail)
