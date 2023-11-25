@@ -143,3 +143,4 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/24__
 * downloaded packages for MDanalysis on Jupyter Notebook (Python) to graph DNA simulation data
+* made ipynb file "MDAnalysisTutorial_MT"
