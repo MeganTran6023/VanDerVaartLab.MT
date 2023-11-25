@@ -140,3 +140,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/21-11/24__
 * Updated Excel on DNA simulations (URA resid, time duration register shifts)
+
+## __11/24__
+* began learning MDanalysis on Jupyter Notebook (Python) to graph DNA simulation data
