@@ -137,3 +137,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/20__
 * Updated continueXTUY.txt using ./looper_prod_continue.sh to update list of sequences that can continue running (ones that did not fail)
+
+## __11/21-11/24__
+* Updated Excel on DNA simulations (URA resid, time duration register shifts)
