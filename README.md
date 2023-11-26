@@ -148,3 +148,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __11/25__
 * finished analysing DNA simulations not failed
 * I think I incorrectly interpreted terpreted register shift, will probably revisit.
+
+## __11/26__
+* edited looper_prod_continue.txt using vim on list of successful DNA simulation runs
