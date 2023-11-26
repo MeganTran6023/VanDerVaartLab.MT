@@ -145,6 +145,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * downloaded packages for MDanalysis on Jupyter Notebook (Python) to graph DNA simulation data
 * made ipynb file "MDAnalysisTutorial_MT"
 
-##__11/25__
+## __11/25__
 * finished analysing DNA simulations not failed
 * I think I incorrectly interpreted terpreted register shift, will probably revisit.
