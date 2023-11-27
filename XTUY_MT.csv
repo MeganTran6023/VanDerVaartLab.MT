@@ -1,0 +1,15 @@
+﻿Sequences,How long did it take? (ps),register shift (start),register shift (stop),The base pair
+ATTA-minor,11000,0,1100,T-A
+ATTC,28680,0,2868,"T-A (above)
+C-A (below)"
+ATTG-minor,52010,0,5201,"T-A(above)
+G-A(below)"
+ATTT,20000,0,2000,"T-A (above)
+T-A (below)"
+ATTT-minor,20000,0,2000,T-A (below)
+CTTA,4410,0,441,"T-A (above)
+(?)-A (below)"
+GTTG-minor,25820,0,2582,"T-A (above)
+G-A(below)"
+GTTT-minor,4190,16996,17415,"T-A (both above
+and below)"
