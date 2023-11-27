@@ -151,3 +151,4 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __11/26__
 * edited looper_prod_continue.txt using vim on list of successful DNA simulation runs
+* made HistogramXTUY.ipynb to present data on DNA sequences with their register shift (RS) durations as well as what bases interacted during RS using Python on Jupyter NB
