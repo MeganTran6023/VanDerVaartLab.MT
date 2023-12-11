@@ -1,0 +1,42 @@
+﻿Sequences,How long RS last? (frames),Start time (frames),What base (below/above)
+ATTA-minor,23,217,T-A above
+ATTC,190,890,T-A (above)
+ATTG-minor,0,0,N/A
+ATTT,17349,2651,T-A below
+ATTT,604,479,T-A above
+ATTT-minor,19417,583,T-A below
+GTTG-minor,0,0,N/A
+GTTT-minor,35663,4337,T-A (below)
+GTTT-minor,385,1368,T-A (above)
+GTTT-minor,2329,1754,T-A (below)
+TTTT,19251,749,T-A (below)
+CTTA-minor,37174,2826,A-A below
+CTTA-minor,327,1691,T-A above
+CTTA-minor,57,1532,A-A below
+CTTT-minor,1101,8383,T-A above
+CTTT-minor,4073,9484,T-A below
+CTTA,0,0,N/A
+CTTT,0,0,N/A
+ATTA,0,0,N/A
+ATTC-minor,0,0,N/A
+ATTG,0,0,N/A
+CTTC,345,1641,C-A (below)
+CTTC-minor,2152,1408,T-A (above)
+CTTC-minor,3225,3695,T-A (above)
+CTTC-minor,380,7735,T-A (above)
+CTTG,0,0,T-A (above)
+GTTA-minor,0,0,N/A
+GTTC,0,0,N/A
+GTTC-minor,107,12197,T-A (above)
+GTTG,0,0,N/A
+GTTT,276,4179,T-A (above)
+TTTA,0,0,N/A
+TTTA-minor,184,2011,T-A (above)
+TTTC,0,0,N/A
+TTTC-minor,0,0,N/A
+TTTG,0,0,N/A
+TTTG-minor,1103,2323,T-A (above)
+TTTT-minor,10942,2585,T-A (above)
+CTTG-minor,0,0,N/A
+GTTA,33,17391,A-A below
+GTTA,47,18597,A-A below

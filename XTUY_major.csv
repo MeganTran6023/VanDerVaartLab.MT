@@ -1,0 +1,19 @@
+﻿Sequences,How long RS last? (frames),Start time (frames),What base (below/above)
+ATTC,190,890,T-A (above)
+ATTT,17349,2651,T-A below
+ATTT,604,479,T-A above
+TTTT,19251,749,T-A (below)
+CTTA,0,0,N/A
+CTTT,0,0,N/A
+ATTA,0,0,N/A
+ATTG,0,0,N/A
+CTTC,345,1641,C-A (below)
+CTTG,0,0,T-A (above)
+GTTC,0,0,N/A
+GTTG,0,0,N/A
+GTTT,276,4179,T-A (above)
+TTTA,0,0,N/A
+TTTC,0,0,N/A
+TTTG,0,0,N/A
+GTTA,33,17391,A-A below
+GTTA,47,18597,A-A below
