@@ -159,4 +159,4 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __12/10__
 * Completed Excel on DNA simulations
 * Next step- code RMSD analysis of register shifts using MDAnalysis
-* Bash script to improve VMD ease of use
+* Code idea next steps - Bash script to improve VMD ease of use
