@@ -155,3 +155,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * 
 ## __11/27__
 * Updated Excel on DNA simulations (URA resid, time duration register shifts) for CTTA minor
+
+## __12/10__
+* Completed Excel on DNA simulations
+* Next step- code RMSD analysis of register shifts using MDAnalysis
+* Bash script to improve VMD ease of use
