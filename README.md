@@ -163,7 +163,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __12/11__
 * Worked on rough idea of bash and tcl script for presetting graphical representation sfor future dcd and prmtop files for simulations
-    * Will upload files soon
+    * megan_vmd_settings.sh
+    * VMD_mol_structure_settings.tcl
 
 * Completed making histograms for major and minor sequences for XTUY
   
@@ -176,3 +177,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
     * Compares total register shift (RS) durations of both major and minor sequences
 
 * Next step: RMSD analysis of XTUY DNA simulations
+
+## __12/12__
+* referred to my practice script "loopDirectories.sh" to make "rmsd_looper.sh"
+    * loops through each sequence directory to make cpptraj file for rmsd analysis
