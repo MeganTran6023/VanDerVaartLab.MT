@@ -163,7 +163,14 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __12/11__
 * Worked on rough idea of bash and tcl script for presetting graphical representation sfor future dcd and prmtop files for simulations
+Will upload files soon
+
 * Completed making histograms for major and minor sequences for XTUY
 These histograms record the frequency of sequences by their register shift duration times in frames.
 Used matplotlib and pandas
 See files "XTUY_Histogram.ipynb" for histogram code and "XTUY_Histogram.csv", "XTUY_major.csv", and "XTUY_minor.csv" for full dataset.
+
+* Completed bar graph for major and minor XTUY sequences
+See XTUY_BarGraph.ipynb for code
+
+* Next step: RMSD analysis of XTUY DNA simulations
