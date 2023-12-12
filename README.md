@@ -173,5 +173,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 * Completed bar graph for major and minor XTUY sequences
     * See XTUY_BarGraph.ipynb for code
+    * Compares total register shift (RS) durations of both major and minor sequences
 
 * Next step: RMSD analysis of XTUY DNA simulations
