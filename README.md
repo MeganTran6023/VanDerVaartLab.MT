@@ -160,3 +160,10 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * Completed Excel on DNA simulations
 * Next step- code RMSD analysis of register shifts using MDAnalysis
 * Code idea next steps - Bash script to improve VMD ease of use
+
+## __12/11__
+* Worked on rough idea of bash and tcl script for presetting graphical representation sfor future dcd and prmtop files for simulations
+* Completed making histograms for major and minor sequences for XTUY
+These histograms record the frequency of sequences by their register shift duration times in frames.
+Used matplotlib and pandas
+See files "XTUY_Histogram.ipynb" for histogram code and "XTUY_Histogram.csv", "XTUY_major.csv", and "XTUY_minor.csv" for full dataset.
