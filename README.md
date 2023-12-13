@@ -183,3 +183,5 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * referred to my practice script "loopDirectories.sh" to make "rmsd_looper.sh", "rmsd_minor_looper.sh", and "ref_vac_looper.sh"
     * rmsd_looper.sh and rmsd_minor_looper.sh - loops through each sequence directory to make cpptraj file for production fo reference sequence file
     * ref_vac_looper.sh - runs cpptraj scripts, makes directory to then store newly make reference files into the new directory
+ 
+* Next step: Finish producing reference files for rest of DNA sequences, then begin RMSD analysis of XTUY DNA simulations using AMBER's Cpptraj 
