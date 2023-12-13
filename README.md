@@ -165,6 +165,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * Worked on rough idea of bash and tcl script for presetting graphical representation sfor future dcd and prmtop files for simulations
     * megan_vmd_settings.sh
     * VMD_mol_structure_settings.tcl
+    * not sure if works - must test
 
 * Completed making histograms for major and minor sequences for XTUY
   
