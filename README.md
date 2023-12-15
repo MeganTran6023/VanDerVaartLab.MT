@@ -162,7 +162,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * Code idea next steps - Bash script to improve VMD ease of use
 
 ## __12/11__
-* Worked on rough idea of bash and tcl script for presetting graphical representation sfor future dcd and prmtop files for simulations
+* Idea: Worked on rough idea of bash and tcl script for presetting graphical representation sfor future dcd and prmtop files for simulations
     * megan_vmd_settings.sh
     * VMD_mol_structure_settings.tcl
     * not sure if works - must test
@@ -184,4 +184,14 @@ To practice this, I am making a theoretical situation that mimics this to practi
     * rmsd_looper.sh and rmsd_minor_looper.sh - loops through each sequence directory to make cpptraj file for production fo reference sequence file
     * ref_vac_looper.sh - runs cpptraj scripts, makes directory to then store newly make reference files into the new directory
  
-* Next step: Finish producing reference files for rest of DNA sequences, then begin RMSD analysis of XTUY DNA simulations using AMBER's Cpptraj 
+* Next step: Finish producing reference files for rest of DNA sequences, then begin RMSD analysis of XTUY DNA simulations using AMBER's Cpptraj
+
+## __12/13 - 12/14__
+* made and ran rmsd_analysis_test.sh and rmsd_analysis_test_minor.sh to run cpptraj script to produce output .txt files for RMSD analysis for all sequences (will upload soon).
+    * runs RSMD of user input sequence directory using parm (.prmtop), reference (.nc) , and vac (.dcd) using cpptraj. User must input file sequence when running the script
+
+* labelled all rmsd .txt graphs
+
+* Idea: want to work on finishing loop_rmsd_analysis_test to efficiently run rmsd_analysis_test.sh and rmsd_analysis_test_minor.sh for every sequence and use the respective vac files.
+------------
+*Next steps: See if DNA can relax using xmgrace. Turn .txt to .pngs
