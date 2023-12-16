@@ -198,4 +198,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
     * See if DNA can relax using xmgrace. Turn .txt to .pngs
     * Get average RMSD of each sequence
     * Get average RMSD of ALL sequences combined + median
-    * Make bar graph/ histogram of RMSD values  
+    * Make bar graph/ histogram of RMSD values
+ 
+## __12/16__
+* made make_dir_combo.sh to practice how to make all possible combinations of a DNA sequence as directories
+    * Since in lab we work with three different RDNA combos, I did XUAY, XUBY, and XUCY as test names
