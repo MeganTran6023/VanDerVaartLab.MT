@@ -188,7 +188,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __12/13 - 12/15__
 * made and ran rmsd_analysis_test.sh and rmsd_analysis_test_minor.sh to run cpptraj script to produce output .txt files for RMSD analysis for all sequences (will upload soon).
-    * runs RSMD of user input sequence directory using parm (.prmtop), reference (.nc) , and vac (.dcd) using cpptraj. User must input file sequence when running the script
+    * runs RMSD of user input sequence directory using parm (.prmtop), reference (.nc) , and vac (.dcd) using cpptraj. User must input file sequence when running the script
 
 * labelled all rmsd .txt graphs
 
