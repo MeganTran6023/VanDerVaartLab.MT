@@ -3,7 +3,7 @@ Journal of code/progress as an undergraduate researcher in the Van Der Vaart Lab
 
 ## __10/7__
 
-Created loopbuild.sh , meganbuild.inp, and StoreSplitDNA.sh
+Created loopbuild.sh , meganbuild.inp, and StoreSplitDNA.sh (not functional, but just to learn the basics of the code)
 
 * StoreSplitDNA.sh - script to split each DNA strand made in directories of desired DNA mutations
 * meganbuild.inp - basic build template to paramaterize each DNA strand made
@@ -194,4 +194,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 * Idea: want to work on finishing loop_rmsd_analysis_test to efficiently run rmsd_analysis_test.sh and rmsd_analysis_test_minor.sh for every sequence and use the respective vac files.
 ------------
-*Next steps: See if DNA can relax using xmgrace. Turn .txt to .pngs
+* Next steps:
+    * See if DNA can relax using xmgrace. Turn .txt to .pngs
+    * Get average RMSD of each sequence
+    * Get average RMSD of ALL sequences combined + median
+    * Make bar graph/ histogram of RMSD values  
