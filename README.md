@@ -187,7 +187,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * Next step: Finish producing reference files for rest of DNA sequences, then begin RMSD analysis of XTUY DNA simulations using AMBER's Cpptraj
 
 ## __12/13 - 12/15__
-* made and ran rmsd_analysis_test.sh and rmsd_analysis_test_minor.sh to run cpptraj script to produce output .txt files for RMSD analysis for all sequences (will upload soon).
+* made and ran rmsd_analysis_test.sh and rmsd_analysis_test_minor.sh to run cpptraj script to produce output .txt files for RMSD analysis for all sequences.
     * runs RMSD of user input sequence directory using parm (.prmtop), reference (.nc) , and vac (.dcd) using cpptraj. User must input file sequence when running the script
 
 * labelled all rmsd .txt graphs
