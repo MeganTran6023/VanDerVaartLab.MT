@@ -203,3 +203,6 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ## __12/16__
 * made make_dir_combo.sh to practice how to make all possible combinations of a DNA sequence as directories
     * Since in lab we work with three different RDNA combos, I did XUAY, XUBY, and XUCY as test names
+
+## __12/17__
+* made loop_print_rmsd.sh to get average RMSD of each DNA sequence. Calculated by using sum of RMSD values divided by total number of rows. 
