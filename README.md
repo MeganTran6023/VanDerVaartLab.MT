@@ -214,3 +214,5 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/063e3e66-1568-40c7-90cb-fa3c0c6dfe89)
 
+* need to redo RMSD data because relaxation time must be accounted for. Relaxation time is when the simulated RDNA is most adpated to the environment it is in during simulation. Here, the base interactions that complementary base has with the bases above and below the flipped uracil base.
+
