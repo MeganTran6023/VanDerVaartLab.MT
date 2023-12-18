@@ -209,6 +209,8 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __12/18__
 * made histograms of sequences from txt files from loop_print_rmsd.sh on Jupyter NB using Python. See BarGraph_Major_RMSD.ipynb for code
+
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/70c10336-08f0-4a91-9ba1-c964f85d661e)
+
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/063e3e66-1568-40c7-90cb-fa3c0c6dfe89)
 
