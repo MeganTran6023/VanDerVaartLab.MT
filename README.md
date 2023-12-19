@@ -216,3 +216,5 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 * need to redo RMSD data because relaxation time must be accounted for. Relaxation time is when the simulated RDNA is most adpated to the environment it is in during simulation. Here, the base interactions that complementary base has with the bases above and below the flipped uracil base.
 
+## __12/19__
+* Editing RMSD data by viewing images using xmgrace to get RDNA relaxation state.
