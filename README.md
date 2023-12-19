@@ -218,3 +218,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 
 ## __12/19__
 * Editing RMSD data by viewing images using xmgrace to get RDNA relaxation state.
+
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/4e334ac5-5ece-4aa2-8731-9268edfbcbef)
+
+Image: If RMSD is shooting up before reaching equilibrium, we delete that time since that time period is not when RDNA is in production.
