@@ -235,5 +235,8 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 * Worked on improving looping scripts with make_path2_dir.sh. 
 
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/95a5b7d6-77cc-459c-825c-1624c4e78586)
+
+Outcome: made directory path2 in each subdirectory of XUAY and made sample_rmsd.txt_output.txt which is the file that has specific lines omitted from the original sample_rmsd.txt file
 
 
