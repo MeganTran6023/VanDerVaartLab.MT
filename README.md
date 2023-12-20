@@ -227,7 +227,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 ## __12/20__
 * Updated TTTT and TTTG rmsd data.
-* Updated BarGraph_Major_RMSD.ipynb with correct RMSD data.
+* Updated BarGraph_Major_RMSD.ipynb.
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/8e0282ab-7e4e-4a3b-bc58-6cddcb1ec422)
 
@@ -238,5 +238,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/95a5b7d6-77cc-459c-825c-1624c4e78586)
 
 Outcome: made directory path2 in each subdirectory of XUAY and made sample_rmsd.txt_output.txt which is the file that has specific lines omitted from the original sample_rmsd.txt file
+
+*need to redo BarGraph_Major_RMSD.ipynb since total number of rows was off by 1, edited by doing NR -1 in shell script when calculating average RMSD.
 
 
