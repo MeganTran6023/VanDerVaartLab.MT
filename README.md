@@ -222,3 +222,5 @@ To practice this, I am making a theoretical situation that mimics this to practi
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/4e334ac5-5ece-4aa2-8731-9268edfbcbef)
 
 Image: If RMSD is shooting up before reaching equilibrium, we delete that time since that time period is not when RDNA is in production.
+
+* Need to update RMSD values for TTTT and TTTG tomorrow. Editied RMSD_avg_looper_calculation_block1.sh and RMSD_avg_looper_calculation_block2.sh to take in new RMSD values after acounting for relaxation time.
