@@ -233,5 +233,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/445c8f3f-ff71-4eb1-85d5-6acbc3248cfe)
 
+* Worked on improving looping scripts with make_path2_dir.sh. 
+
 
 
