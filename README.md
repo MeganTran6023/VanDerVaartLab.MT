@@ -239,6 +239,6 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 **Outcome**: made directory path2 in each subdirectory of XUAY and made sample_rmsd.txt_output.txt which is the file that has specific lines omitted from the original sample_rmsd.txt file
 
-* need to redo BarGraph_Major_RMSD.ipynb since total number of rows was off by 1, edited by doing NR -1 in shell script when calculating average RMSD.
+~~need to redo BarGraph_Major_RMSD.ipynb since total number of rows was off by 1, edited by doing NR -1 in shell script when calculating average RMSD.~~
 
 
