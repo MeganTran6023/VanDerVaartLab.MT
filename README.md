@@ -241,4 +241,9 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 ~~need to redo BarGraph_Major_RMSD.ipynb since total number of rows was off by 1, edited by doing NR -1 in shell script when calculating average RMSD.~~
 
-
+## __12/21__
+* Made XTUY_minor_block1and2_newout.sh to loop through minor sequences.
+    * gets lines 298 to end of .txt file of minor seq block 1 and 2 after cpptraj submission RMSD using print_rmsd_minor_block1.sh and print_rmsd_minor_block2.sh.
+    * Output files are block1rmsd_minor_output.txt and block2rmsd_minor_output.txt.
+ 
+* Made histogram for minor sequences using python on Jupyter NB
