@@ -247,3 +247,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
     * Output files are block1rmsd_minor_output.txt and block2rmsd_minor_output.txt.
  
 * Made histogram for minor sequences using python on Jupyter NB
+
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7ed4c22d-cddf-4293-8afc-bbcdf9ba9e38)
+
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/cc27efff-3501-440c-bf7b-6cea8a6b784d)
