@@ -245,12 +245,13 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 * Made XTUY_minor_block1and2_newout.sh to loop through minor sequences.
     * gets lines 298 to end of .txt file of minor seq block 1 and 2 after cpptraj submission RMSD using print_rmsd_minor_block1.sh and print_rmsd_minor_block2.sh.
     * Output files are block1rmsd_minor_output.txt and block2rmsd_minor_output.txt.
-**Next Steps:**
-* get average RMSD of all 32 sequences (both major and minor together, two dif calculations for block 1 and 2)
-* get median value from all 32 sequences, two dif median values due to block 1 and 2.
  
 * Made histogram for minor sequences using python on Jupyter NB - BarGraph_Minor_RMSD.ipynb
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7ed4c22d-cddf-4293-8afc-bbcdf9ba9e38)
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/cc27efff-3501-440c-bf7b-6cea8a6b784d)
+
+**Next Steps:**
+* get average RMSD of all 32 sequences (both major and minor together, two dif calculations for block 1 and 2)
+* get median value from all 32 sequences, two dif median values due to block 1 and 2.
