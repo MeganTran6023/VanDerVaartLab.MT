@@ -246,7 +246,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
     * gets lines 298 to end of .txt file of minor seq block 1 and 2 after cpptraj submission RMSD using print_rmsd_minor_block1.sh and print_rmsd_minor_block2.sh.
     * Output files are block1rmsd_minor_output.txt and block2rmsd_minor_output.txt.
  
-* Made histogram for minor sequences using python on Jupyter NB
+* Made histogram for minor sequences using python on Jupyter NB - BarGraph_Minor_RMSD.ipynb
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7ed4c22d-cddf-4293-8afc-bbcdf9ba9e38)
 
