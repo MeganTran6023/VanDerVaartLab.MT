@@ -258,3 +258,11 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 
 Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of strand A and B during the run and how they deviate from the reference RDNA strand made 
+
+## __12/22__
+* combine_singleFile_MajorandMinor.sh ->
+    * code for theoretical test environment befor eapplying it to my project in the lab hence the directory and file names
+    * finds and combines every specific .txt file that exists in each subdirectory into on e.txt file, output file in provided subdirectory
+    * deletes any extra empty lines that exists in the seperate .txt files
+    * Something to note - in base_directory="/Playground_MT/XUAY", may have to remove the first part of path depends on situation. This was the case when applying this base code to my actual XTUY project
+      
