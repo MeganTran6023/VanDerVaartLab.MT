@@ -255,3 +255,6 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 **Next Steps:**
 * get average RMSD of all 32 sequences (both major and minor together, two dif calculations for block 1 and 2)
 * get median value from all 32 sequences, two dif median values due to block 1 and 2.
+
+
+Note: ourpose of block 1 and 2 for RDNA simulation is to compare behavior of strand A and B during the run and how they deviate from the reference RDNA strand made 
