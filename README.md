@@ -265,4 +265,10 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
     * finds and combines every specific .txt file that exists in each subdirectory into on e.txt file, output file in provided subdirectory
     * deletes any extra empty lines that exists in the seperate .txt files
     * Something to note - in base_directory="/Playground_MT/XUAY", may have to remove the first part of path depends on situation. This was the case when applying this base code to my actual XTUY project
+* completed median_avg_rmsd_COPY.sh
       
+    * combines all major and minor into block 1 and block 2 own seperate txt files (output file at ${dir_name}/all_block1_rmsd.txt and ${dir_name}/all_block2_rmsd.txt )
+
+    * finds average values for block1 and 2 from output files and median
+
+    * output file for this shell is rmsdAvg_block1and2_total.txt
