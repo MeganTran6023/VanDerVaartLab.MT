@@ -272,3 +272,6 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
     * finds average values for block1 and 2 from output files and median
 
     * output file for this shell is rmsdAvg_block1and2_total.txt
+ 
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/fa9c7d41-5248-4278-9f0c-ef3a1a86deb4)
+
