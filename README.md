@@ -276,5 +276,8 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/fa9c7d41-5248-4278-9f0c-ef3a1a86deb4)
 
 **Next Steps:**
-* Bar graph above data
+* ~~Bar graph above data~~
 * Study code made yesterday
+
+## __12/23__
+* plotted averages and medians for block 1 and 2 in AvgMedian_Block1and2.ipynb.
