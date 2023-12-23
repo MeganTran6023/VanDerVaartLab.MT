@@ -280,11 +280,13 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
 * Study code made yesterday
 
 ## __12/23__
-* plotted averages and medians for block 1 and 2 in AvgMedian_Block1and2.ipynb.
+* plotted averages and medians for block 1 and 2 in AvgMedian_Block1and2.ipynb of all major and minor sequences combined for respective blocks.
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/805159e2-391f-42ec-8246-3c0881cedb15)
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/63570490-c4b9-458e-a640-c0b2299cc843)
 
-
+**Analysis:**
+* Huge difference in average vs median value for block 2.
+* Which one is better measure? Block 2 was not as normally distributed compared to block 1 dataset (has outliers) -> use median. Block 1 dataset was normally distributed -> use average(?)
 
