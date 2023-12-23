@@ -208,7 +208,7 @@ To practice this, I am making a theoretical situation that mimics this to practi
 * made loop_print_rmsd.sh to get average RMSD of each DNA sequence. Calculated by using sum of RMSD values divided by total number of rows. Output .txt file with RMSD data
 
 ## __12/18__
-* made histograms of sequences from txt files from loop_print_rmsd.sh on Jupyter NB using Python. See BarGraph_Major_RMSD.ipynb for code
+* made histograms of sequences from txt files from loop_print_rmsd.sh on Jupyter NB using Python. See Histogram_Major_RMSD.ipynb for code
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/70c10336-08f0-4a91-9ba1-c964f85d661e)
 
@@ -227,7 +227,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
 
 ## __12/20__
 * Updated TTTT and TTTG rmsd data.
-* Updated BarGraph_Major_RMSD.ipynb.
+* Updated Histogram_Major_RMSD.ipynb.
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/8e0282ab-7e4e-4a3b-bc58-6cddcb1ec422)
 
@@ -246,7 +246,7 @@ Image: If RMSD is shooting up before reaching equilibrium, we delete that time s
     * gets lines 298 to end of .txt file of minor seq block 1 and 2 after cpptraj submission RMSD using print_rmsd_minor_block1.sh and print_rmsd_minor_block2.sh.
     * Output files are block1rmsd_minor_output.txt and block2rmsd_minor_output.txt.
  
-* Made histogram for minor sequences using python on Jupyter NB - BarGraph_Minor_RMSD.ipynb
+* Made histogram for minor sequences using python on Jupyter NB - Histogram_Minor_RMSD.ipynb
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7ed4c22d-cddf-4293-8afc-bbcdf9ba9e38)
 
