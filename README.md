@@ -277,7 +277,7 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
 
 **Next Steps:**
 * ~~Bar graph above data~~
-* Study code made yesterday
+* ~~Study code made yesterday (median_avg_rmsd_COPY.sh)~~
 
 ## __12/23__
 * plotted averages and medians for block 1 and 2 in AvgMedian_Block1and2.ipynb of all major and minor sequences combined for respective blocks.
