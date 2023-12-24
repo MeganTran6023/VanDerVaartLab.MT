@@ -312,5 +312,6 @@ _Question_ -  what are we changing with AT and GC? bond with uridine?
 Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
 
 **Issues encountered-**
-    * .nc file wouldn't be read by VMD
-    * Solution: run cpptraj script convert .nc file to .dcd
+
+* .nc file wouldn't be read by VMD
+* Solution: run cpptraj script convert .nc file to .dcd
