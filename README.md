@@ -314,4 +314,7 @@ Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
 **Issues encountered-**
 
 * .nc file wouldn't be read by VMD
-* Solution: run cpptraj script convert .nc file to .dcd
+    * Solution: run cpptraj script convert .nc file to .dcd
+
+ * cpptraj file doesn't process parm and trajin files
+    * SolutionL provide full path
