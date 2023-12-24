@@ -293,3 +293,5 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
 **Next Steps:**
 * Work on GC sequences
 * Write out general outline of steps (VMD to RMSD)
+
+_Question_ -  what are we changing with AT and GC? bond with uridine?
