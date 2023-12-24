@@ -310,3 +310,7 @@ _Question_ -  what are we changing with AT and GC? bond with uridine?
     * .nc files may store trajectory data, such as the coordinates of atoms over time.
 
 Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
+
+**Issues encountered-**
+    * .nc file wouldn't be read by VMD
+    * Solution: run cpptraj script convert .nc file to .dcd
