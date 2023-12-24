@@ -290,3 +290,5 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
 * Huge difference in average vs median value for block 2.
 * Which one is better measure? Block 2 was not as normally distributed compared to block 1 dataset (has outliers) -> use median. Block 1 dataset was normally distributed -> use average(?)
 
+**Next Steps:**
+* Work on GC sequences
