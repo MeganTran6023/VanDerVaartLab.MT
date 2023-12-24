@@ -299,12 +299,12 @@ _Question_ -  what are we changing with AT and GC? bond with uridine?
 ## __12/24__
 Step 1 - view GC sequences on VMD
 
-    1. .inpcrd (Input Coordinates):
+1. .inpcrd (Input Coordinates):
     * Purpose: Contains the initial coordinates of the atoms in molecular system.
-    2. .prmtop (Parameter Topology):
+2. .prmtop (Parameter Topology):
     * Purpose: Contains information about the molecular system's topology and force field parameters.
-    3. .rst7 (Restart Coordinates):
+3. .rst7 (Restart Coordinates):
     * saves coordinates of system at particular point so one can go to system at certain time of simulation.
     * these are made in intervals during a whole simulation
-    4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
+4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
     * .nc files may store trajectory data, such as the coordinates of atoms over time.
