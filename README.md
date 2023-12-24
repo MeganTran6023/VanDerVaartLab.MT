@@ -298,6 +298,7 @@ _Question_ -  what are we changing with AT and GC? bond with uridine?
 
 ## __12/24__
 Step 1 - view GC sequences on VMD
+
     1. .inpcrd (Input Coordinates):
     * Purpose: Contains the initial coordinates of the atoms in molecular system.
     2. .prmtop (Parameter Topology):
