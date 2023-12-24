@@ -308,3 +308,5 @@ Step 1 - view GC sequences on VMD
     * these are made in intervals during a whole simulation
 4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
     * .nc files may store trajectory data, such as the coordinates of atoms over time.
+
+Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
