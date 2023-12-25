@@ -332,3 +332,7 @@ Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
 * squeue -u (id)
 * see why those lines were commented out on looper_heat and heat.sh
 * run gpujob.sh
+
+## __12/25__
+* annotated annotatelooper_heat.sh and heat.sh to see how they worked - why I made edits to them yesterday
+* looper_heat.sh jobs submitted yesterday still running
