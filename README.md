@@ -318,3 +318,12 @@ Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
 
  * cpptraj file doesn't process parm and trajin files
     * Solution: provide full path
+  
+* Jobs wouldn't submit when running looper_heat.sh
+  * Solution: worked with grad student to edit queue used and comment out certain lines
+  * Files used: (update later)
+
+**Next Steps:**
+* squeue -u (id)
+* see why those lines were commented out
+* actually start viewing on VMD
