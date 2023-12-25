@@ -297,7 +297,12 @@ Note: purpose of block 1 and 2 for RDNA simulation is to compare behavior of str
 _Question_ -  what are we changing with AT and GC? bond with uridine?
 
 ## __12/24__
-**Step 1 - view major and minor GC sequences on VMD**
+
+**Step 1 - submit jobs**
+1. Run looper_heat.sh
+2. After 1 finishes, submit gpujob.sh
+
+**Step 2 - view major and minor GC sequences on VMD**
 
 1. .inpcrd (Input Coordinates):
     * Purpose: Contains the initial coordinates of the atoms in molecular system.
@@ -325,5 +330,5 @@ Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
 
 **Next Steps:**
 * squeue -u (id)
-* see why those lines were commented out
-* actually start viewing on VMD
+* see why those lines were commented out on looper_heat and heat.sh
+* run gpujob.sh
