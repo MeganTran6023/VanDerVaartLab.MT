@@ -35,8 +35,10 @@ sbatch -J n$name $dir/eq.sh $system $name $dir #run jobs specified by script eq.
 # optimization
 
 #4) -c = coordinate file
+## establishes initial state of molecular system
 
 #5) -x = trajectory file (saves over time)
+## records positions of atoms of molecule at each time of simulation. used to compare to ref file
 
 #6) -inf = information file (info about simulation run)
 
