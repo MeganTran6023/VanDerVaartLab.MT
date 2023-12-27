@@ -373,7 +373,8 @@ Files used for looper_prod.sh:
 | Input System | ------------- |
 | Solvation | ------------- |
 | Adding Ions | ------------- |
-| Minimization | ------------- |
+| Minimization | - prepare starting material by relaxing it|
+|  | - avoids steric clashes (overlapping of nonbonding atoms)/ inapproporiate geometry|
 |  Heating + Equilibriation | - prepare system at desired temp for our simulation (heating) |
 | | - analogous to thawing out food before cooking/ preheating oven |
 |  Production | - removing contraints place on system from previous steps and initiate simulation  |
