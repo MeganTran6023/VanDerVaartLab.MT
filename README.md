@@ -300,21 +300,7 @@ _Question_ -  what are we changing with AT and GC? bond with uridine?
 
 **Step 1 - submit jobs**
 1. Run looper_heat.sh
-2. After 1 finishes, submit gpujob.sh
-
-**Step 2 - view major and minor GC sequences on VMD**
-
-1. .inpcrd (Input Coordinates):
-    * Purpose: Contains the initial coordinates of the atoms in molecular system.
-2. .prmtop (Parameter Topology):
-    * Purpose: Contains information about the molecular system's topology and force field parameters.
-3. .rst7 (Restart Coordinates):
-    * saves coordinates of system at particular point so one can go to system at certain time of simulation.
-    * these are made in intervals during a whole simulation
-4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
-    * .nc files may store trajectory data, such as the coordinates of atoms over time.
-
-Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
+2. After 1 finishes, submit looper_prod.sh
 
 **Issues encountered-**
 
@@ -365,3 +351,18 @@ Files used for looper_prod.sh:
 | looper_prod.sh was not running sequences | reset irun to 1 on npt.py |
 | looper_prod.sh could not find the prod/major and prod/minor files| made shell script to make those directories in each subdirectory of XTUY (make_prod_COPY.sh)  |
 | npt.py had depreciated simtk.openmm   | looked through openmm website for utd version  |
+
+**Next Steps:**
+* View major and minor GC sequences on VMD
+
+1. .inpcrd (Input Coordinates):
+    * Purpose: Contains the initial coordinates of the atoms in molecular system.
+2. .prmtop (Parameter Topology):
+    * Purpose: Contains information about the molecular system's topology and force field parameters.
+3. .rst7 (Restart Coordinates):
+    * saves coordinates of system at particular point so one can go to system at certain time of simulation.
+    * these are made in intervals during a whole simulation
+4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
+    * .nc files may store trajectory data, such as the coordinates of atoms over time.
+
+Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
