@@ -358,3 +358,8 @@ Files used for looper_prod.sh:
     cp $projectDir/vacgethbondcom.py .
     cp "$base_path/dna-${sq}-$subd.prmtop" .
     cp "$base_path/noe-${sq}-$subd.rst" .
+
+| Problems  | Solutions |
+| looper_prod.sh was not running sequences | reset irun to 1 on npt.py |
+| looper_prod.sh could not find the prod/major and prod/minor files| made shell script to make those directories in each subdirectory of XTUY (make_prod_COPY.sh)  |
+| npt.py had depreciated simtk.openmm   | looked through openmm website for utd version  |
