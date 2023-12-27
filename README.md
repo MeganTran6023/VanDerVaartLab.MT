@@ -1,5 +1,4 @@
-# VanDerVaartLab.MT
-Journal of code/progress as an undergraduate researcher in the Van Der Vaart Lab at USF in Computational Chemistry.
+# VanDerVaartLab.MTJournal of code/progress as an undergraduate researcher in the Van Der Vaart Lab at USF in Computational Chemistry.
 
 ## __10/7__
 
@@ -302,6 +301,18 @@ _Question_ -  what are we changing with AT and GC? bond with uridine?
 1. Run looper_heat.sh
 2. After 1 finishes, submit looper_prod.sh
 
+1. .inpcrd (Input Coordinates):
+    * Purpose: Contains the initial coordinates of the atoms in molecular system.
+2. .prmtop (Parameter Topology):
+    * Purpose: Contains information about the molecular system's topology and force field parameters.
+3. .rst7 (Restart Coordinates):
+    * saves coordinates of system at particular point so one can go to system at certain time of simulation.
+    * these are made in intervals during a whole simulation
+4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
+    * .nc files may store trajectory data, such as the coordinates of atoms over time.
+
+Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
+
 **Issues encountered-**
 
 * .nc file wouldn't be read by VMD
@@ -355,14 +366,4 @@ Files used for looper_prod.sh:
 **Next Steps:**
 * View major and minor GC sequences on VMD
 
-1. .inpcrd (Input Coordinates):
-    * Purpose: Contains the initial coordinates of the atoms in molecular system.
-2. .prmtop (Parameter Topology):
-    * Purpose: Contains information about the molecular system's topology and force field parameters.
-3. .rst7 (Restart Coordinates):
-    * saves coordinates of system at particular point so one can go to system at certain time of simulation.
-    * these are made in intervals during a whole simulation
-4. .nc (NetCDF format) *(.dcd can be used as alternative)*:
-    * .nc files may store trajectory data, such as the coordinates of atoms over time.
 
-Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
