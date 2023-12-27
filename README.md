@@ -336,3 +336,25 @@ Generally, .dcd and .prmtop files used to visualize simulated sequence on VMD.
 ## __12/25__
 * annotated annotatelooper_heat.sh and heat.sh to see how they worked - why I made edits to them yesterday
 * looper_heat.sh jobs submitted yesterday still running
+
+## __12/27__
+* heating jobs completed, began running productions on all sequences
+
+**Production**
+ 
+* Prod step takes 48 hrs (2 days)
+* Analysis every 100ns on snapshots 1 - 10s
+* 1 snapshot = 20 ns of simulation
+* 148 ns ran / day -> around 7 snapshots for analysis per day
+
+Files used for looper_prod.sh:
+    
+    cp $projectDir/npt.py .
+    cp $projectDir/gpujob.sh .
+    cp $projectDir/gpujob.template .
+    cp $projectDir/center_desol_merge.temp .
+    cp $projectDir/analy.sh .
+    cp $projectDir/eof.temp .
+    cp $projectDir/vacgethbondcom.py .
+    cp "$base_path/dna-${sq}-$subd.prmtop" .
+    cp "$base_path/noe-${sq}-$subd.rst" .
