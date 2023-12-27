@@ -375,7 +375,6 @@ Files used for looper_prod.sh:
 | Adding Ions | ------------- |
 | Minimization | ------------- |
 |  Heating + Equilibriation | - prepare system at desired temp for our simulation (heating) |
-| | - prepare system at desired temp for our simulation (heating) |
 | | - analogous to thawing out food before cooking/ preheating oven |
 |  Production | - removing contraints place on system from previous steps and initiate simulation  |
 |   | - removing contraints place on system from previous steps and initiate simulation  |
