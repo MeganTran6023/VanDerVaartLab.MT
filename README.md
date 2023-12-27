@@ -370,10 +370,18 @@ Files used for looper_prod.sh:
 
 | Steps  | Description |
 | ------------- | ------------- |
-| 1) Heating | --- |
-| 2) Production | ---  |
-| 3) Relaxation Time | Remove time record where system has not yet acclimated to conditions of simulation run  |
-| 4) Statistical Analysis | - Root Mean Square Deviation (RMSD) |
+| Input System | ------------- |
+| Solvation | ------------- |
+| Adding Ions | ------------- |
+| Minimization | ------------- |
+|  Heating + Equilibriation | - prepare system at desired temp for our simulation (heating) |
+| | - prepare system at desired temp for our simulation (heating) |
+| | - analogous to thawing out food before cooking/ preheating oven |
+|  Production | - removing contraints place on system from previous steps and initiate simulation  |
+|   | - removing contraints place on system from previous steps and initiate simulation  |
+| | - analogous to releasing animal to wild after testing it in lab environment (ie remove tags and etc) 
+|  Relaxation Time | Remove time record where system has not yet acclimated to conditions of simulation run  |
+|  Statistical Analysis | - Root Mean Square Deviation (RMSD) |
 | | - average RMSD for each sequence for each block, and then combine major and minors in block 1 and find that average, same process for block 2  |
 || - median for all sequences block 1 and 2  |
 || - Visualize using python matplotlib and numpy |
