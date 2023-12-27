@@ -366,4 +366,14 @@ Files used for looper_prod.sh:
 **Next Steps:**
 * View major and minor GC sequences on VMD
 
+**Notes about simulation procedures:**
 
+| Steps  | Description |
+| ------------- | ------------- |
+| 1) Heating | --- |
+| 2) Production | ---  |
+| 3) Relaxation Time | Remove time record where system has not yet acclimated to conditions of simulation run  |
+| 4) Statistical Analysis | - Root Mean Square Deviation (RMSD) |
+| | - average RMSD for each sequence for each block, and then combine major and minors in block 1 and find that average, same process for block 2  |
+|| - median for all sequences block 1 and 2  |
+|| - Visualize using python matplotlib and numpy |
