@@ -377,7 +377,6 @@ Files used for looper_prod.sh:
 |  Heating + Equilibriation | - prepare system at desired temp for our simulation (heating) |
 | | - analogous to thawing out food before cooking/ preheating oven |
 |  Production | - removing contraints place on system from previous steps and initiate simulation  |
-|   | - removing contraints place on system from previous steps and initiate simulation  |
 | | - analogous to releasing animal to wild after testing it in lab environment (ie remove tags and etc) 
 |  Relaxation Time | Remove time record where system has not yet acclimated to conditions of simulation run  |
 |  Statistical Analysis | - Root Mean Square Deviation (RMSD) |
