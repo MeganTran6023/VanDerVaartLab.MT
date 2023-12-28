@@ -370,9 +370,10 @@ Files used for looper_prod.sh:
 
 | Steps  | Description |
 | ------------- | ------------- |
-| Input System | ------------- |
-| Solvation | ------------- |
-| Adding Ions | ------------- |
+| Input System | make DNA strands using AMBER and CHARMM (.pdb) |
+| Solvation | simulate system in a defined container filled with solvent in water (most prevalent in nature, shows most accurate results) |
+|  | simulate system in a defined container filled with solvent in water (most prevalent in nature, shows most accurate results) |
+| Adding Ions | Neutralize the system since charged state doesn't exist in nature |
 | Minimization | - prepare starting material by relaxing it|
 |  | - avoids steric clashes (overlapping of nonbonding atoms)/ inapproporiate geometry|
 |  Heating + Equilibriation | - prepare system at desired temp for our simulation (heating) |
