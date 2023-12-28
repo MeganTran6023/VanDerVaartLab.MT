@@ -385,3 +385,8 @@ Files used for looper_prod.sh:
 | | - average RMSD for each sequence for each block, and then combine major and minors in block 1 and find that average, same process for block 2  |
 || - median for all sequences block 1 and 2  |
 || - Visualize using python matplotlib and numpy |
+
+## __12/28__
+* made cpptraj_input.sh to work on looping for seq inputs for cpptraj script
+
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/99fc999e-eef5-4e2d-9b7e-0faaae30ed00)
