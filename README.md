@@ -390,3 +390,12 @@ Files used for looper_prod.sh:
 * made cpptraj_input.sh to work on looping for seq inputs for cpptraj script
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/99fc999e-eef5-4e2d-9b7e-0faaae30ed00)
+
+## __12/29__
+* combo_rmsd_looper_analysis.sh
+    * combine EOF of rmsd_looper.sh and rmsd_minor_looper.sh, also successfully inputted subd names into sequence via looping (cgcg(dir)cgcg) into cpptraj scripts
+    * use directory name to plug into cpptraj script to run the rmsd analysis
+    * loops through each subdirectory of XTUY (or whatever the input is) (cgcg(seq)cgcg)
+    * loops through each subdirectory and prints out the highest number vac file ending in .dcd. and replace the vac files needed for respective cpptraj analysis scripts
+
+
