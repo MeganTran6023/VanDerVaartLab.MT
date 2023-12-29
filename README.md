@@ -392,10 +392,20 @@ Files used for looper_prod.sh:
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/99fc999e-eef5-4e2d-9b7e-0faaae30ed00)
 
 ## __12/29__
+
+Made a shell script combining smaller shell scripts in an attenpt to run production an danalysis efficiently 
+
+I still have copies of the individual shell scripts that worked
+
 * combo_rmsd_looper_analysis.sh
     * combine EOF of rmsd_looper.sh and rmsd_minor_looper.sh, also successfully inputted subd names into sequence via looping (cgcg(dir)cgcg) into cpptraj scripts
     * use directory name to plug into cpptraj script to run the rmsd analysis
     * loops through each subdirectory of XTUY (or whatever the input is) (cgcg(seq)cgcg)
     * loops through each subdirectory and prints out the highest number vac file ending in .dcd. and replace the vac files needed for respective cpptraj analysis scripts
 
+* combo_RMSD_seq_avg_block1and2_COPY.sh
+    * gets all RMSD values from cpptraj output
+    * combo of RMSD_avg_looper_calculation_block1.sh and RMSD_avg_looper_calculation_block2.sh as well as its minor counterparts
+    * finds average of EACH sequence (major and minor, block 1 and 2) -> output file in seperate txt files
+    * finds avg and median of all sequences combined (for block 1 and block 2)
 
