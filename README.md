@@ -409,3 +409,5 @@ I still have copies of the individual shell scripts that worked
     * finds average of EACH sequence (major and minor, block 1 and 2) -> output file in seperate txt files
     * finds avg and median of all sequences combined (for block 1 and block 2)
 
+**Next Steps:**
+* Gather and download all Com (center of mass) and Hbond pngs to analyze on vmd
