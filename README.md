@@ -411,3 +411,10 @@ I still have copies of the individual shell scripts that worked
 
 **Next Steps:**
 * Gather and download all Com (center of mass) and Hbond pngs to analyze on vmd
+
+## __12/30__
+
+* made move_Hbond_Com_files_looper.sh
+    * goes through each subdirectory and copies Hbond and Com files
+    * moves the copy version into directory GC_Hbond_Com in  GC_XTUY
+    * makes downloading images efficient
