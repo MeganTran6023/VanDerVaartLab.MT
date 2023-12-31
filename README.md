@@ -424,12 +424,12 @@ I still have copies of the individual shell scripts that worked
 * Analyze pngs of Com and Hbond from production runs to see any register shifts
 **Register Shift**
   ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/8fc041bb-b88c-49b5-a7f2-45ae7cf249f2)
-  citation: Paul B. Orndorff and Arjan van der Vaart
+
 
 
   ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/33a44551-5a94-4b0f-b081-6eb353c64c02)
 
-
+citation: Paul B. Orndorff and Arjan van der Vaart
 Journal of the American Chemical Society 2023 145 (30), 16350-16354
 DOI: 10.1021/jacs.3c05890
 
