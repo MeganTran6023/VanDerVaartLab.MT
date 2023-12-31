@@ -439,9 +439,9 @@ DOI: 10.1021/jacs.3c05890
   
 ```mermaid
 graph TD;
-  Uracil DNA glycosylase causes uracil to flip outside DNA helix --> Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix
-   Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix-->Reduction of genetic material from being altered by G:C to A:T transition mutations
-  Reduction of genetic material from being altered by G:C to A:T transition mutations-->Prevent occurences of diseases stemming from such mutations such as Neoplasms, Malignant Neoplasms, Multiple Transition Abnormalities, Transversion Mutation, Carcinoma (Novusbio)
+  Uracil DNA glycosylase causes uracil to flip outside DNA helix --> Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix;
+   Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix-->Reduction of genetic material from being altered by G:C to A:T transition mutations;
+  Reduction of genetic material from being altered by G:C to A:T transition mutations-->Prevent occurences of diseases stemming from such mutations such as Neoplasms, Malignant Neoplasms, Multiple Transition Abnormalities, Transversion Mutation, Carcinoma (Novusbio);
 
  ```
  
