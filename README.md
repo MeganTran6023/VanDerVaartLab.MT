@@ -429,16 +429,19 @@ I still have copies of the individual shell scripts that worked
 
   ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/33a44551-5a94-4b0f-b081-6eb353c64c02)
 
+
 Journal of the American Chemical Society 2023 145 (30), 16350-16354
 DOI: 10.1021/jacs.3c05890
 
-    * Essentially this is when the base originally supposed to bind with the uracil that is flipped out binds with a base above or below uracil.
-    * Significance: 
-            ```mermaid
-        graph TD;
-            A-->B;
-            B-->C;
-            C-->D;
-            D-->E;
-        ```
+* Essentially this is when the base originally supposed to bind with the uracil that is flipped out binds with a base above or below uracil.
+
+* Significance:
+  
+```mermaid
+graph TD;
+  A-->B;
+  B-->C;
+  C-->D;
+  D-->E;
+ ```
  
