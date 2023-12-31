@@ -436,17 +436,12 @@ DOI: 10.1021/jacs.3c05890
 * Essentially this is when the base originally supposed to bind with the uracil that is flipped out binds with a base above or below uracil.
 
 * Significance:
-
 ```mermaid
 graph TD;
-  subgraph A[Uracil DNA glycosylase causes uracil to flip outside DNA helix]
-    A -->|Repair| B[Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix]
-  end
-  subgraph B
-    B -->|Reduction| C[Reduction of genetic material from being altered by G:C to A:T transition mutations]
-  end
-  subgraph C
-    C -->|Prevent| D[Prevent occurrences of diseases stemming from such mutations such as Neoplasms, Malignant Neoplasms, Multiple Transition Abnormalities, Transversion Mutation, Carcinoma (Novusbio)]
-  end
+  A[Uracil DNA glycosylase causes uracil to flip outside DNA helix] -->|Repair| B[Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix];
+  B -->|Reduction| C[Reduction of genetic material from being altered by G:C to A:T transition mutations];
+  C -->|Prevent| D[Prevent occurrences of diseases stemming from such mutations such as Neoplasms, Malignant Neoplasms, Multiple Transition Abnormalities, Transversion Mutation, Carcinoma (Novusbio)];
+```
+
 
  
