@@ -436,11 +436,10 @@ DOI: 10.1021/jacs.3c05890
 * Essentially this is when the base originally supposed to bind with the uracil that is flipped out binds with a base above or below uracil.
 
 * Significance:
-Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    A-->B;
+    Uracil DNA glycosylase causes uracil to flip outside DNA helix-->B;
     A-->C;
     B-->D;
     C-->D;
