@@ -438,12 +438,15 @@ DOI: 10.1021/jacs.3c05890
 * Significance:
 
 ```mermaid
-flowchart TD;
+graph TD;
+  subgraph A[Uracil DNA glycosylase causes uracil to flip outside DNA helix]
+    A -->|Repair| B[Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix]
+  end
+  subgraph B
+    B -->|Reduction| C[Reduction of genetic material from being altered by G:C to A:T transition mutations]
+  end
+  subgraph C
+    C -->|Prevent| D[Prevent occurrences of diseases stemming from such mutations such as Neoplasms, Malignant Neoplasms, Multiple Transition Abnormalities, Transversion Mutation, Carcinoma (Novusbio)]
+  end
 
-  bci-A(Uracil DNA glycosylase causes uracil to flip outside DNA helix)
-  bci-B(Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix)
-
-  bci-A-->bci-B;
-
-```
  
