@@ -418,3 +418,27 @@ I still have copies of the individual shell scripts that worked
     * goes through each subdirectory and copies Hbond and Com files
     * moves the copy version into directory GC_Hbond_Com in  GC_XTUY
     * makes downloading images efficient
+  
+## __12/31__
+
+* Analyze pngs of Com and Hbond from production runs to see any register shifts
+**Register Shift**
+  ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/8fc041bb-b88c-49b5-a7f2-45ae7cf249f2)
+  citation: Paul B. Orndorff and Arjan van der Vaart
+
+
+  ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/33a44551-5a94-4b0f-b081-6eb353c64c02)
+
+Journal of the American Chemical Society 2023 145 (30), 16350-16354
+DOI: 10.1021/jacs.3c05890
+
+    * Essentially this is when the base originally supposed to bind with the uracil that is flipped out binds with a base above or below uracil.
+    * Significance: 
+            ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+        ```
+ 
