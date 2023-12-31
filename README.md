@@ -436,8 +436,10 @@ DOI: 10.1021/jacs.3c05890
 * Essentially this is when the base originally supposed to bind with the uracil that is flipped out binds with a base above or below uracil.
 
 * Significance:
+  <p align="center">
+  <img src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/ed08a14e-5ce7-4544-b370-5c469ae27750" >
+</p>
 
-![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/ed08a14e-5ce7-4544-b370-5c469ae27750)
 
 
 
