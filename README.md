@@ -423,7 +423,7 @@ I still have copies of the individual shell scripts that worked
 
 * Analyze pngs of Com and Hbond from production runs to see any register shifts
 
-**Register Shift**
+**Register Shift (RS)**
   <p align="center">
   <img src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/8fc041bb-b88c-49b5-a7f2-45ae7cf249f2" >
   <img src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/33a44551-5a94-4b0f-b081-6eb353c64c02" >
@@ -440,7 +440,15 @@ DOI: 10.1021/jacs.3c05890
   <img src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/ed08a14e-5ce7-4544-b370-5c469ae27750" >
 </p>
 
+Analyzing prod simulations for RS:
 
+* Example of RS
 
+  <p align="center">
+  <img src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/808a5d76-8d8d-4610-8477-4276f36b1fa3" >
+  <img src ="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/b0571b19-0424-46a7-813d-b2e70d6aea73">
+</p>
+
+    * The uracil (orange) is flipped out, the base originally binding with uracil (ice blue) connects with the base above uracil (purple).
 
  
