@@ -438,10 +438,12 @@ DOI: 10.1021/jacs.3c05890
 * Significance:
 
 ```mermaid
-graph TD;
-    Uracil DNA glycosylase causes uracil to flip outside DNA helix-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart TD;
+
+  A(Uracil DNA glycosylase causes uracil to flip outside DNA helix)
+  B(Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix)
+
+  A-->B;
+
 ```
  
