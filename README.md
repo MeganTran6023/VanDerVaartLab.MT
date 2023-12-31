@@ -440,10 +440,10 @@ DOI: 10.1021/jacs.3c05890
 ```mermaid
 flowchart TD;
 
-  A(Uracil DNA glycosylase causes uracil to flip outside DNA helix)
-  B(Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix)
+  bci-A(Uracil DNA glycosylase causes uracil to flip outside DNA helix)
+  bci-B(Repair uracil lesions from deamination of cytosine or misplacement of Deoxyuridine monophosphate (dUMP) in DNA helix)
 
-  A-->B;
+  bci-A-->bci-B;
 
 ```
  
