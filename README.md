@@ -451,4 +451,11 @@ Analyzing prod simulations for RS:
 
   * The uracil (orange) is flipped out, the base originally binding with uracil (ice blue) connects with the base above uracil (purple).
 
- 
+* Hbond and Center of Mass graphs:
+  <p align="center">
+  <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/0264447b-74e5-4e70-afa2-4761681ed87c">
+</p>
+
+ | Hbond Graph  | Com Graph |
+| ------------- | ------------- |
+| in red box in attached image, shows if the base complimentary to uracil bonds with base above/below uracil | distance in angstrom of respective base from base complimentary to uracil |
