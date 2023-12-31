@@ -449,6 +449,6 @@ Analyzing prod simulations for RS:
   <img src ="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/b0571b19-0424-46a7-813d-b2e70d6aea73">
 </p>
 
-    * The uracil (orange) is flipped out, the base originally binding with uracil (ice blue) connects with the base above uracil (purple).
+  * The uracil (orange) is flipped out, the base originally binding with uracil (ice blue) connects with the base above uracil (purple).
 
  
