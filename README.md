@@ -461,5 +461,6 @@ Analyzing prod simulations for RS:
 | in red box in attached image, shows if the base complimentary to uracil bonds with base above/below uracil | distance in angstrom of respective base from base complimentary to uracil |
 
 **Questions:**
-* What is block 1 and block 2?
+* What is block 1 and block 2? (more than just strand A and B)
 * What is the mechanism behind uracil flipping?
+* Can RMSD have more than one relaxation time?
