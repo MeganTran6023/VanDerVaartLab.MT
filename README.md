@@ -459,3 +459,7 @@ Analyzing prod simulations for RS:
  | Hbond Graph  | Com Graph |
 | ------------- | ------------- |
 | in red box in attached image, shows if the base complimentary to uracil bonds with base above/below uracil | distance in angstrom of respective base from base complimentary to uracil |
+
+**Questions:**
+* What is block 1 and block 2?
+* What is the mechanism behind uracil flipping?
