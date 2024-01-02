@@ -469,6 +469,9 @@ Analyzing prod simulations for RS:
 | What is the mechanism behind uracil flipping? | 1- UDG uses flexible loops made of proline and glycine-serine residues to pinch area with uracil |
 ||2 -UDG's intercalation loop wedges into loop with uracil, destabilizes it, and pushes uracil out so it "flips out"|
 
+## __12/30__
+
+* continued to analyze simulation runs of DNA afer production
 
   
 
