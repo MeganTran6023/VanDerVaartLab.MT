@@ -465,7 +465,7 @@ Analyzing prod simulations for RS:
  | Q  | A |
 | ------------- | ------------- |
 | Can RMSD have more than one relaxation time? | no, mainly occurs in beginnin gof RMSD graph. Any other instances of this would be due to outside factors such as issues in simulation conditions, the starting material, not enough time for system to equilibriate |
-| What is block 1 and block 2? (more than just strand A and B) | ------------- |
+| What is block 1 and block 2? (more than just strand A and B) | compare the RMSD (root-mean-square deviation) of two specific blocks within your DNA helix to a reference DNA strand. |
 | What is the mechanism behind uracil flipping? | 1- UDG uses flexible loops made of proline and glycine-serine residues to pinch area with uracil |
 ||2 -UDG's intercalation loop wedges into loop with uracil, destabilizes it, and pushes uracil out so it "flips out"|
 
