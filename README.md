@@ -472,6 +472,3 @@ Analyzing prod simulations for RS:
 ## __12/30__
 
 * continued to analyze simulation runs of DNA afer production
-
-  
-
