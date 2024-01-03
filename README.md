@@ -472,3 +472,13 @@ Analyzing prod simulations for RS:
 ## __12/30__
 
 * continued to analyze simulation runs of DNA afer production
+
+## __12/31__
+see 12/30
+
+**Questions:**
+
+ | Q  | A |
+| ------------- | ------------- |
+| What is the purpose of this experiment? |-------------|
+
