@@ -484,7 +484,7 @@ see 12/30
 
 ## __1/3__
 * Finished analyzing DNA sequences simulation for GC pairs
-* Nest step: Submit ContinueXTUY.txt for sequences of interest
+* Next step: Submit ContinueXTUY.txt for sequences of interest
     * simulations that have register shifts
     * did not fail (URA did not flip in)
 
