@@ -496,3 +496,10 @@ see 12/30
 </p>
 
 
+## __1/4__
+
+* resolved issue with processing inputs to make reference sequence file (.nc) for RMSD analysis
+
+  <p align="center">
+  <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/38c6cf3c-2c5f-4ff8-b9b2-fff80077c992">
+</p>
