@@ -510,7 +510,7 @@ see 12/30
  
 * **work on looper_prod_continue.sh to submit sequences to be continued**
 
-IssueS resolved CONTINUE RUNS;
+Issues resolved CONTINUE RUNS:
 
 * gpujob.sh did not run sequences to continue production run
     * Solution: in continueXTUY.txt, must add "-major" or "-minor" after 4 letter sequence
@@ -518,3 +518,7 @@ IssueS resolved CONTINUE RUNS;
   <img width="300" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7144d532-750b-414c-ae8b-15dc76d860c70">
 </p>
 
+**Steps to view rmsd .txt files:**
+
+| 1) Import "module load apps/xmgrace/5.1.22"   |
+| 2) xmgrace (filename) |
