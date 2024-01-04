@@ -520,5 +520,5 @@ Issues resolved CONTINUE RUNS:
 
 **Steps to view rmsd .txt files:**
 
-1) Import "module load apps/xmgrace/5.1.22"
+1) Import "module load apps/grace/5.1.22"
 2) xmgrace (filename) 
