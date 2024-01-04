@@ -515,6 +515,6 @@ IssueS resolved CONTINUE RUNS;
 * gpujob.sh did not run sequences to continue production run
     * Solution: in continueXTUY.txt, must add "-major" or "-minor" after 4 letter sequence
   <p align="center">
-  <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7144d532-750b-414c-ae8b-15dc76d860c70">
+  <img width="300" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/7144d532-750b-414c-ae8b-15dc76d860c70">
 </p>
 
