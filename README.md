@@ -487,4 +487,12 @@ see 12/30
 * Next step: Submit ContinueXTUY.txt for sequences of interest
     * simulations that have register shifts
     * did not fail (URA did not flip in)
+* Errors in combo_rmsd_looper_analysis.sh (inevitable)
+  * need full pathway when inputting .prmtop and other necessary files for cpptraj scripts
+  * fixing code to provide correct path since naming is different for these sequences
+  * resolved issue with processing prmtop, now working on .ncrst
+  <p align="center">
+  <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/fcab3aa5-83cf-4dbb-bf50-6b11add8c76b">
+</p>
+
 
