@@ -522,3 +522,11 @@ Issues resolved CONTINUE RUNS:
 
 1) Import "module load apps/grace/5.1.22"
 2) xmgrace (filename) 
+
+**In each subdirectory:**
+
+| Files  | Purpose |
+| ------------- | ------------- |
+| block(#)_major(or minor)_rmsd.txt | original file of rmsd from cpptraj run |
+| block(#)_major(or minor)_rmsd_output.txt | edited file of rmsd from cpptraj run (identify relaxation times) |
+| block(#)_major(or minor)_rmsd_output_COPY.txt | copy of edited file of rmsd from cpptraj run (identify relaxation times) |
