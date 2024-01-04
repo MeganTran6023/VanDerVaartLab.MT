@@ -501,5 +501,5 @@ see 12/30
 * resolved issue with processing inputs to make reference sequence file (.nc) for RMSD analysis
 
   <p align="center">
-  <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/38c6cf3c-2c5f-4ff8-b9b2-fff80077c992">
+  <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/43658cd9-b242-40d3-b928-8bc48869a010">
 </p>
