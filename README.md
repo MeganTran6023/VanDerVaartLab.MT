@@ -509,3 +509,8 @@ see 12/30
     * edited code to output .txt files into respective directories (major/minor)
  
 * **work on looper_prod_continue.sh to submit sequences to be continued**
+
+IssueS resolved CONTINUE RUNS;
+
+* gpujob.sh did not run sequences to continue production run
+    * Solution: in continueXTUY.txt, must add "-major" or "-minor" after 4 letter sequence
