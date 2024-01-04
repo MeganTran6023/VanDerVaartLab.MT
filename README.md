@@ -530,3 +530,7 @@ Issues resolved CONTINUE RUNS:
 | block(#)_major(or minor)_rmsd.txt | original file of rmsd from cpptraj run |
 | block(#)_major(or minor)_rmsd_output.txt | edited file of rmsd from cpptraj run (identify relaxation times) |
 | block(#)_major(or minor)_rmsd_output_COPY.txt | copy of edited file of rmsd from cpptraj run (identify relaxation times) |
+
+* delete a range of lines on vim:
+    * :5,10d
+    * 5 is th ebeginning point, 10 is the end point
