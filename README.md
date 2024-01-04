@@ -503,3 +503,5 @@ see 12/30
   <p align="center">
   <img width="960" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/43658cd9-b242-40d3-b928-8bc48869a010">
 </p>
+
+* when running cpptraj script for reference nc files. remember to label output nc files with major/minor!
