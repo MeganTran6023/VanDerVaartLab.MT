@@ -519,6 +519,6 @@ Issues resolved CONTINUE RUNS:
 </p>
 
 **Steps to view rmsd .txt files:**
-
+| ------------- | ------------- |
 | 1) Import "module load apps/xmgrace/5.1.22"   |
 | 2) xmgrace (filename) |
