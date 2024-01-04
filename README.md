@@ -507,3 +507,5 @@ see 12/30
 * when running cpptraj script for reference nc files. remember to label output nc files with major/minor!
 * successfully ran rmsd_analysis_test_updated_COPY.sh to run RMSD analysis on DNA sequences
     * edited code to output .txt files into respective directories (major/minor)
+ 
+* **work on looper_prod_continue.sh to submit sequences to be continued**
