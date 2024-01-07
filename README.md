@@ -540,3 +540,5 @@ Issues resolved CONTINUE RUNS:
 
 * Analysis didnt run on the three sequences that need to be continued
 * Reason: didnt uncomment analysis line in my looper_prod_continue.sh
+
+* now on CTCA
