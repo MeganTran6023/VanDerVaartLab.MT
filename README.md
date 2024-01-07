@@ -535,3 +535,8 @@ Issues resolved CONTINUE RUNS:
     * :5,10d
     * 5 is th ebeginning point, 10 is the end point
     * finished ATCC
+
+## __1/7__
+
+* Analysis didnt run on the three sequences that need to be continued
+* Reason: didnt uncomment analysis line in my looper_prod_continue.sh
