@@ -542,3 +542,9 @@ Issues resolved CONTINUE RUNS:
 * Reason: didnt uncomment analysis line in my looper_prod_continue.sh
 
 * now on CTCA
+
+## __1/8__
+
+* contraints messed up on UT sequences
+* start working on ATCG
+* after find relax time, fix excel table
