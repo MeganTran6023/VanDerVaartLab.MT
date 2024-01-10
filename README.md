@@ -563,3 +563,4 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 ## __1/10__
 * finished CTCT
 * start working on CTCG
+* TTCT continue run in progress
