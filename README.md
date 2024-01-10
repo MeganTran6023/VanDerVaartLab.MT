@@ -559,3 +559,7 @@ Issues resolved CONTINUE RUNS:
 Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 
 * start on CTCT for tomorrow
+
+## __1/10__
+* finished CTCT
+* start working on CTCG
