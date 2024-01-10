@@ -548,3 +548,12 @@ Issues resolved CONTINUE RUNS:
 * contraints messed up on UT sequences
 * start working on ATCG
 * after find relax time, fix excel table
+
+## __1/9__
+
+* all except major block 1 have obvious indication of relaxation times
+  <p align="center">
+  <img width="300" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/8b190d98-ea4c-4ac0-b645-1087de5570fc">
+</p>
+
+Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
