@@ -568,3 +568,8 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 ## __1/11__
 
 * prepared presentation for lab meeting
+
+## __1/12__
+
+<img width="38" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/d878707a-5d74-4547-a96d-3abf3ef9b569">
+
