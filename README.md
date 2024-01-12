@@ -564,3 +564,7 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 * finished CTCT
 * start working on CTCG
 * TTCT continue run in progress
+
+## __1/11__
+
+* prepared presentation for lab meeting
