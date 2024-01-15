@@ -582,3 +582,16 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 * copied UT_flip.tar.gz and new looper_heat.sh into uridine_flip/XTUY
 * ran looper_heat.sh for new UT sequences on new partition (simmons_i) - around 2-3 days to finish
 * follow steps 12/25 - 12/27 in log
+
+## __1/15__
+
+Submitted production runs for UT
+
+  <p align="center">
+  <img width="900" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/82bf7b2b-e9d6-4c25-b81b-8d435056e58e">
+</p>
+
+
+| Problems  | Solutions |
+| ------------- | ------------- |
+| looper-prod.sh was not running all UT sequences | exit 0 in code was only running first sequence it saw; deleted so all sequences could be run |
