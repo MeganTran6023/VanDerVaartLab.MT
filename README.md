@@ -580,3 +580,5 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 ## __1/14__
 
 * copied UT_flip.tar.gz and new looper_heat.sh into uridine_flip/XTUY
+* ran looper_heat.sh for new UT sequences on new partition (simmons_i) - around 2-3 days to finish
+* follow steps 12/25 - 12/27 in log
