@@ -576,3 +576,7 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 ## __1/13__
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/edc7af27-eedb-4f5b-a4af-af034c4a6029)
+
+## __1/14__
+
+* copied UT_flip.tar.gz and new looper_heat.sh into uridine_flip/XTUY
