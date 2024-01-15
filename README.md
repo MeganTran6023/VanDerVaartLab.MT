@@ -588,8 +588,7 @@ Image: Red box = relaxation time begins for block 2 minor rmsd ATCG
 Submitted production runs for UT
 
   <p align="center">
-  <img width="900" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/c4ab8518-01b3-4154-9a75-fcdb8c0f1c64
-">
+  <img width="900" alt="image" src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/c4ab8518-01b3-4154-9a75-fcdb8c0f1c64">
 </p>
 
 
