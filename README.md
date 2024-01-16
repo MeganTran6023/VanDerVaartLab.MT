@@ -595,7 +595,8 @@ Submitted production runs for UT
 | Problems  | Solutions |
 | ------------- | ------------- |
 | looper-prod.sh was not running all UT sequences | exit 0 in code was only running first sequence it saw; deleted so all sequences could be run |
-| looper-prod.sh - analy.sh wasn't being read | use complete pathway |
+| looper-prod.sh - analy.sh wasn't being read | use complete pathway (didnt work,tried to run analy.sh outside of script |
+| | angle.sh seems to be the issue |
 
 **Next Steps**
 * find easier way to import necessary files to run looper_prod
