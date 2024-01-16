@@ -596,3 +596,6 @@ Submitted production runs for UT
 | ------------- | ------------- |
 | looper-prod.sh was not running all UT sequences | exit 0 in code was only running first sequence it saw; deleted so all sequences could be run |
 | looper-prod.sh - analy.sh wasn't being read | use complete pathway |
+
+**Next Steps**
+* find easier way to import necessary files to run looper_prod
