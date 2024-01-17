@@ -600,3 +600,13 @@ Submitted production runs for UT
 
 **Next Steps**
 * find easier way to import necessary files to run looper_prod
+DONE
+
+## __1/15__
+
+Successfully Submitted production runs for UT
+
+| Problems  | Solutions |
+| ------------- | ------------- |
+| looper_prod.sh was not running sequences | reset irun to 1 on gpujob.sh |
+|  | cp necessary files from analyscript |
