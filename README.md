@@ -619,3 +619,4 @@ Successfully Submitted production runs for UT
 | Problems  | Solutions |
 | ------------- | ------------- |
 | not all sequences ran through as job submissions | use looper_prod_continue.sh and fill out respective .txt file |
+| ATTA major simulation didnt match with Hbond / COM  png | rerun analy.sh |
