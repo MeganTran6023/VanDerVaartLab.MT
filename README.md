@@ -610,3 +610,12 @@ Successfully Submitted production runs for UT
 | ------------- | ------------- |
 | looper_prod.sh was not running sequences | reset irun to 1 on gpujob.sh |
 |  | cp necessary files from analyscript |
+
+## __1/17 - 1/19__
+
+* finished production run for UT sequences- now analyze on VMD
+* downloaded CHARMM and X3DNA on remote server
+
+| Problems  | Solutions |
+| ------------- | ------------- |
+| not all sequences ran through as job submissions | use looper_prod_continue.sh and fill out respective .txt file |
