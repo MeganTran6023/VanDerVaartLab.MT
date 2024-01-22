@@ -620,3 +620,8 @@ Successfully Submitted production runs for UT
 | ------------- | ------------- |
 | not all sequences ran through as job submissions | use looper_prod_continue.sh and fill out respective .txt file |
 | ATTA major simulation didnt match with Hbond / COM  png | rerun analy.sh (noticed simulation for vac1 matched results from images)|
+
+##__1/20__
+
+* made loop_tpl.sh
+* for com PNG, the center of mass is on the base originally paired with uracil.
