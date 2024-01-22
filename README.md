@@ -627,3 +627,8 @@ Successfully Submitted production runs for UT
 * for com PNG, the center of mass is on the base originally paired with uracil.
 * ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/9b9e5f10-9d98-4a67-ac57-762b360edfd7)
 
+ATTC major: whole DNA seq tilts clockwise  (looks like glitch?) as register shift with below ura C-A occurs 
+
+R.S base (ura flip) from 5-3 end, bind with adenine on 3-5 end
+
+stop at 10k frames (vac1)
