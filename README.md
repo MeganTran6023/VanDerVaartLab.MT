@@ -632,3 +632,8 @@ ATTC major: whole DNA seq tilts clockwise  (looks like glitch?) as register shif
 R.S base (ura flip) from 5-3 end, bind with adenine on 3-5 end
 
 stop at 10k frames (vac1)
+
+* Reading: Neighbor List Artifacts in Molecular Dynamics Simulations
+Hyuntae Kim, Balázs Fábián, and Gerhard Hummer
+
+- learning more about molecular dynamics and potential problems in simulations
