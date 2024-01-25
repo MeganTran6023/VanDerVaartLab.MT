@@ -637,3 +637,11 @@ stop at 10k frames (vac1)
 Hyuntae Kim, Balázs Fábián, and Gerhard Hummer
 
 - learning more about molecular dynamics and potential problems in simulations
+
+## __1/25__
+
+* looper_analysis for psf - fixed preceeding isues by using full file directory
+Current error in create_psf.py:
+    prmtop_file=f'vac_{}.prmtop'.format(seq)
+                               ^
+SyntaxError: invalid syntax
