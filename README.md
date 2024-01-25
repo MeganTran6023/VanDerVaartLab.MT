@@ -645,3 +645,9 @@ Current error in create_psf.py:
     prmtop_file=f'vac_{}.prmtop'.format(seq)
                                ^
 SyntaxError: invalid syntax
+
+| Problems  | Solutions |
+| ------------- | ------------- |
+|Current error in create_psf.py:
+    prmtop_file=f'vac_{}.prmtop'.format(seq) | conda activate openmm7.6 |
+| create_psf.py isnt finding the nc file | maybe put full path directory? |
