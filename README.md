@@ -665,3 +665,7 @@ SyntaxError: invalid syntax
 
 * upload looper_psf.sh!!
     * loops through sequeence subdirectories and puts psf2.sh, looper_analysis_psf.sh, create_psf.py, continueXTUY.txt, BPS.template, looper_analysis_continue.sh, and analy_continue.sh
+
+* run looper_prod for major sequences for UT (XTUY, T is mutated and the U is thymine)
+* idea: need to write looper to make psf folders in python
+    * i had to use x terminal for python to work, directly with create_psf.py
