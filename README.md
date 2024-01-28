@@ -656,5 +656,5 @@ SyntaxError: invalid syntax
 ## __1/28__
 
 * made histogram of successful register shifts GC sequences (XTCY where T is mutated to uracil):
-     ** GC_XTUY_Histogram.ipynb
-     ** GC_XTUY_Major.csv
+    * GC_XTUY_Histogram.ipynb
+    * GC_XTUY_Major.csv
