@@ -664,3 +664,4 @@ SyntaxError: invalid syntax
 </p>
 
 * upload looper_psf.sh!!
+    * loops through sequeence subdirectories and puts psf2.sh, looper_analysis_psf.sh, create_psf.py, continueXTUY.txt, BPS.template, looper_analysis_continue.sh, and analy_continue.sh
