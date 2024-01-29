@@ -669,3 +669,11 @@ SyntaxError: invalid syntax
 * run looper_prod for major sequences for UT (XTUY, T is mutated and the U is thymine)
 * idea: need to write looper to make psf folders in python
     * i had to use x terminal for python to work, directly with create_psf.py
+
+| Problems  | Solutions |
+| ------------- | ------------- |
+| vmd script for psf (create_psf.sh) not work | ------------- |
+| x3DNA download| have to edit ~/.bashrc then source it |
+
+''' export X3DNA='/home/m/xxxxx/x3dna-v2.4'
+export PATH='/home/m/xxxxx/x3dna-v2.4/bin':$PATH '''
