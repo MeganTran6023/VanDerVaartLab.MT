@@ -672,7 +672,7 @@ SyntaxError: invalid syntax
 
 | Problems  | Solutions |
 | ------------- | ------------- |
-| vmd script for psf (create_psf.sh) not work | ------------- |
+| vmd script for psf (create_psf.sh) not work | grad student edit with "echo" |
 | x3DNA download| have to edit ~/.bashrc then source it |
 | charmm not working| check charm directory path |
 
