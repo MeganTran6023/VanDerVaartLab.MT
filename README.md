@@ -682,3 +682,6 @@ export PATH='/home/m/xxxxx/x3dna-v2.4/bin':$PATH '''
 
 __rsync:__
 rsync -aurv --include={"*.sh","*.inp","vac*","BPS*"} --exclude="*.*" /work_bgfs/xxx/xxx/uridine_flip/GC_XTUY/XTUY .
+
+__Next steps:__
+* analyze new UT_major sequences vmd 
