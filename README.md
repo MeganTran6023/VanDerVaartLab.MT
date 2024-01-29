@@ -674,6 +674,11 @@ SyntaxError: invalid syntax
 | ------------- | ------------- |
 | vmd script for psf (create_psf.sh) not work | ------------- |
 | x3DNA download| have to edit ~/.bashrc then source it |
+| charmm not working| check charm directory path |
 
 ''' export X3DNA='/home/m/xxxxx/x3dna-v2.4'
 export PATH='/home/m/xxxxx/x3dna-v2.4/bin':$PATH '''
+
+
+__rsync:__
+rsync -aurv --include={"*.sh","*.inp","vac*","BPS*"} --exclude="*.*" /work_bgfs/xxx/xxx/uridine_flip/GC_XTUY/XTUY .
