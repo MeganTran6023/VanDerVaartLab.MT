@@ -707,3 +707,27 @@ Sample view of VAC-CGCGGTCTCGCG-MAJOR-shift-slide-rise-tilt-roll-twist.dat
 |Tilt	| Tilt is the angle at which each base pair's flat plane deviates from being perfectly perpendicular to the helical axis. It's like tilting a book on a shelf.|
 |Roll	| Roll describes the rotation of one base pair with respect to its neighboring base pair along the helix axis. It's like twisting a rope along its length.|
 |Twist |	Twist is the rotation of one base pair's flat plane relative to the next base pair's flat plane along the helix axis. It's like the twist in a spiral staircase.|
+
+**.dat files explanation in work/...
+
+angles/VAC-CGCGGTCTCGCG-MAJOR-total-bend-tilt-roll-vecang.dat: This file likely contains data on the bending, tilting, and rolling angles of the DNA backbone. You might find it in a directory named "angles" within your simulation or analysis output folder.
+
+backbone/torsion/VAC-CGCGGTCTCGCG-MAJOR-torsion.dat: This file probably contains information about the torsion angles of the DNA backbone. Look for it in a directory named "backbone/torsion" in your output folder.
+
+backbone/torsion/VAC-CGCGGTCTCGCG-torsion-dist.dat: This file may contain data related to the distribution of torsion angles along the DNA backbone. You should find it in the same directory as the previous file.
+
+backbone/sugar_conformation/VAC-CGCGGTCTCGCG-pseudobond-dist.dat: This file likely contains information about the distances between atoms in the sugar moiety of DNA. Check for it in a directory named "backbone/sugar_conformation".
+
+backbone/sugar_conformation/VAC-CGCGGTCTCGCG-MAJOR-pseudobond-dist.dat: Similar to the previous file, but specific to a major groove conformation.
+
+backbone/sugar_conformation/VAC-CGCGGTCTCGCG-MAJOR-puckering.dat: This file probably contains data on sugar puckering conformations in the major groove of DNA. Look for it in the "backbone/sugar_conformation" directory.
+
+backbone/sugar_conformation/VAC-CGCGGTCTCGCG-puckering.dat: Similar to the previous file, but likely containing data for both major and minor grooves.
+
+bp/VAC-CGCGGTCTCGCG-MAJOR-shear-stretch-stagger-buckle-propeller-opening.dat: This file might contain measurements related to base pair parameters such as shear, stretch, stagger, buckle, propeller, and opening. You should find it in a directory named "bp".
+
+grooves/VAC-CGCGGTCTCGCG-MAJOR-grooves.dat: This file likely contains information about the dimensions and characteristics of the major and minor grooves in the DNA structure. Check for it in a directory named "grooves".
+
+steps/VAC-CGCGGTCTCGCG-MAJOR-shift-slide-rise-tilt-roll-twist.dat: This file probably contains data on the shift, slide, rise, tilt, roll, and twist parameters for each base pair step in the DNA structure. Look for it in a directory named "steps".
+
+tpl/VAC-CGCGGTCTCGCG-MAJOR-total-twist.dat: This file may contain data on the total twist of the DNA structure. You might find it in a directory named "tpl".
