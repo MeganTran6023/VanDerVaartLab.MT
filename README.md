@@ -684,4 +684,26 @@ __rsync:__
 rsync -aurv --include={"*.sh","*.inp","vac*","BPS*"} --exclude="*.*" /work_bgfs/xxx/xxx/uridine_flip/GC_XTUY/XTUY .
 
 __Next steps:__
-* analyze new UT_major sequences vmd 
+* analyze new UT_major sequences vmd
+* 
+
+__2/1__
+
+* acquired .dat file for sequences and its properties
+    * in "prod/major(or minor)/an" folder
+
+  <p align="center">
+  <img src="https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/9e278f33-198d-4bcc-a120-0467a1fe6986" >
+</p>
+
+Sample view of VAC-CGCGGTCTCGCG-MAJOR-shift-slide-rise-tilt-roll-twist.dat  
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/3a23e225-0b7b-40d2-b0a6-a37ea077882c)
+
+| Property  | Explanation |
+| ------------- | ------------- |
+|Shift |	Shift describes how much one base pair moves left or right compared to the next along the DNA helix. Think of it as the lateral displacement of one base pair relative to another.|
+|Slide |	Slide measures how much one base pair shifts up or down relative to its neighboring base pair in the helix. It's like the vertical displacement of one base pair compared to another.|
+|Rise |	Rise is the distance between two neighboring base pairs along the DNA helix axis. It's like measuring the height between steps in a staircase.|
+|Tilt	| Tilt is the angle at which each base pair's flat plane deviates from being perfectly perpendicular to the helical axis. It's like tilting a book on a shelf.|
+|Roll	| Roll describes the rotation of one base pair with respect to its neighboring base pair along the helix axis. It's like twisting a rope along its length.|
+|Twist |	Twist is the rotation of one base pair's flat plane relative to the next base pair's flat plane along the helix axis. It's like the twist in a spiral staircase.|
