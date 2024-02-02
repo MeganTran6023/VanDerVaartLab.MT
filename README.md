@@ -731,3 +731,8 @@ grooves/VAC-CGCGGTCTCGCG-MAJOR-grooves.dat: This file likely contains informatio
 steps/VAC-CGCGGTCTCGCG-MAJOR-shift-slide-rise-tilt-roll-twist.dat: This file probably contains data on the shift, slide, rise, tilt, roll, and twist parameters for each base pair step in the DNA structure. Look for it in a directory named "steps".
 
 tpl/VAC-CGCGGTCTCGCG-MAJOR-total-twist.dat: This file may contain data on the total twist of the DNA structure. You might find it in a directory named "tpl".
+
+Tasks:
+
+* continue XTUY major sequence
+* run cpptraj nc files? XTUY major
