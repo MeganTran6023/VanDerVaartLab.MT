@@ -708,7 +708,7 @@ Sample view of VAC-CGCGGTCTCGCG-MAJOR-shift-slide-rise-tilt-roll-twist.dat
 |Roll	| Roll describes the rotation of one base pair with respect to its neighboring base pair along the helix axis. It's like twisting a rope along its length.|
 |Twist |	Twist is the rotation of one base pair's flat plane relative to the next base pair's flat plane along the helix axis. It's like the twist in a spiral staircase.|
 
-**.dat files explanation in work/...
+**.dat files explanation in work/...**
 
 angles/VAC-CGCGGTCTCGCG-MAJOR-total-bend-tilt-roll-vecang.dat: This file likely contains data on the bending, tilting, and rolling angles of the DNA backbone. You might find it in a directory named "angles" within your simulation or analysis output folder.
 
