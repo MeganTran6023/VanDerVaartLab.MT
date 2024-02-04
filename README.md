@@ -743,3 +743,18 @@ Tasks:
 * Solution: it was in work and not work_bgfs
 
 UT_major -> work
+
+## __2/4__
+
+**Structural Analysis**
+
+| Steps  | Description |
+| ------------- | ------------- |
+| run loop_psf.sh (In GC_XTUY)|  loopers create_psf.sh in each subd |
+| create_psf.sh (In GC_XTUY/XTUY) | makes psf files using vmd for all subdirectories|
+| need: steps.sh (In GC_XTUY/XTUY) | |
+| need: analysis_looper.sh (In GC_XTUY/XTUY) | |
+| need: submit_analysis.sh (In GC_XTUY/XTUY) | |
+| need: BPS.template (In GC_XTUY/XTUY) | |
+| need: tpl_bpl_steps.sh and .inp (In GC_XTUY/XTUY) | |
+| run looper_data_extract.sh (In GC_XTUY/XTUY) | gets necessary files and runs for structural analysis|
