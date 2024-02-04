@@ -741,3 +741,5 @@ Tasks:
 
 * mismatch prmtop and chk files when running looper_prod_continue.sh
 * Solution: it was in work and not work_bgfs
+
+UT_major -> work
