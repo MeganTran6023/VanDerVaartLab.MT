@@ -687,7 +687,7 @@ __Next steps:__
 * analyze new UT_major sequences vmd
 * 
 
-__2/1__
+## __2/1__
 
 * acquired .dat file for sequences and its properties
     * in "prod/major(or minor)/an" folder
@@ -736,3 +736,8 @@ Tasks:
 
 * continue XTUY major sequence
 * run cpptraj nc files? XTUY major
+
+## __2/3__
+
+* mismatch prmtop and chk files when running looper_prod_continue.sh
+* Solution: it was in work and not work_bgfs
