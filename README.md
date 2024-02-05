@@ -759,4 +759,4 @@ UT_major -> work
 | need: tpl_bpl_steps.sh and .inp (In GC_XTUY/XTUY) | |
 | run looper_data_extract.sh (In GC_XTUY/XTUY) | gets necessary files and runs for structural analysis|
 
-* worked on looper_structural_analysis.sh to get averages of structural parameters of sequences
+* worked on looper_structural_analysis.sh to get averages of structural parameters of sequences (in work/m/...)
