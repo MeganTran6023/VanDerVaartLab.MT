@@ -760,3 +760,7 @@ UT_major -> work
 | run looper_data_extract.sh (In GC_XTUY/XTUY) | gets necessary files and runs for structural analysis|
 
 * worked on looper_structural_analysis.sh to get averages of structural parameters of sequences (in work/m/...)
+
+## __2/5__
+
+*got looper_structural_analysis.sh to get averages to put specific parameters in seperate files
