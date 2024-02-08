@@ -764,3 +764,8 @@ UT_major -> work
 ## __2/5__
 
 *got looper_structural_analysis.sh to get averages to put specific parameters in seperate files
+
+## __2/7__
+* structural analysis on UT_Major sequences
+* compiling charmm in progress
+* worked on visualizing data for GC_XTUY on Jupyter NB
