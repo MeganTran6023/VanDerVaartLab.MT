@@ -784,7 +784,10 @@ __Tasks:__
 ## __2/9__
 * uploaded Structural Analysis GC_XTUY.ipynb - bar graphs of strucutral parameters as discussed above
 * resubmitted looper_analysis.sh for sequences:
+* 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/3cac202b-e4bb-4631-b4a9-0b74fa0b7482)
 * looper_analysis: vacgethbond and continueXTUY.txt and analy.sh
 
 * in GC, looper_analysis is looper_analysis_2_9.sh
+* GC sequences to run analysis:
+Major: CTCC,GTCT,TTCT
