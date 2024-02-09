@@ -791,3 +791,5 @@ __Tasks:__
 * in GC, looper_analysis is looper_analysis_2_9.sh
 * GC sequences to run analysis:
 Major: CTCC,GTCT,TTCT
+
+* look at UT major sequences continued run on vmd 
