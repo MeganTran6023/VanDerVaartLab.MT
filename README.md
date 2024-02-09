@@ -769,3 +769,11 @@ UT_major -> work
 * structural analysis on UT_Major sequences
 * compiling charmm in progress
 * worked on visualizing data for GC_XTUY on Jupyter NB
+
+## __2/8__
+
+Rerun analysis on vac4 sequences
+
+This is for XTUY (UA) minor sequences in /XXXX/XXXX/XXXX/uridine_flip
+
+![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/3cac202b-e4bb-4631-b4a9-0b74fa0b7482)
