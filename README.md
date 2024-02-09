@@ -777,3 +777,6 @@ Rerun analysis on vac4 sequences
 This is for XTUY (UA) minor sequences in /XXXX/XXXX/XXXX/uridine_flip
 
 ![image](https://github.com/Sonicdaheghod/VanDerVaartLab.MT/assets/68253811/3cac202b-e4bb-4631-b4a9-0b74fa0b7482)
+
+__Tasks:__
+* Rerun analysis on GC XTUY - major and minor, and TU XTUY major (in UT_flip)
