@@ -780,3 +780,6 @@ This is for XTUY (UA) minor sequences in /XXXX/XXXX/XXXX/uridine_flip
 
 __Tasks:__
 * Rerun analysis on GC XTUY - major and minor, and TU XTUY major (in UT_flip)
+
+## __2/9__
+* uploaded Structural Analysis GC_XTUY.ipynb - bar graphs of strucutral parameters as discussed above
