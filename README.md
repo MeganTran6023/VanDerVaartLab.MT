@@ -802,3 +802,8 @@ TU sequences:
 * GTTA
 * GTTT
 * TTTC
+
+When running new looper_prod_continue.sh, make sure to not rerun from same vac number or else you lose data.
+
+* new looper_prod_continue.sh
+* TU - major  sequences in /uridine_flip/UT_flip
