@@ -793,3 +793,12 @@ __Tasks:__
 Major: CTCC,GTCT,TTCT
 
 * look at UT major sequences continued run on vmd 
+
+## __2/10__
+TU sequences:
+* CTTA
+* CTTC
+* CTTT
+* GTTA
+* GTTT
+* TTTC
