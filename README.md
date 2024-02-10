@@ -807,3 +807,5 @@ When running new looper_prod_continue.sh, make sure to not rerun from same vac n
 
 * new looper_prod_continue.sh
 * TU - major  sequences in /uridine_flip/UT_flip
+* isssue with looper_data_extract.sh -> need to complie charmm
+do "sbatch -J compcharmm /home/XXX/XXX/charmm/c43b2/compilecirce.temp"
