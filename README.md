@@ -814,3 +814,14 @@ do "sbatch -J compcharmm /home/XXX/XXX/charmm/c43b2/compilecirce.temp"
 Tasks completed:
 * ran up to vac 6 for TU sequences above for further analysis in work_bgfs directory
 * ran torsion.sh on GC sequences in work directory -> important for seeing how register shift affected bases outside of site where register shift occurs?
+* on torsion.sh output file, 2nd column is average 3rd column is standard deviation
+| Torsion Angle | Description                                           |
+|---------------|-------------------------------------------------------|
+| Alpha (α)     | Rotation around the O3'-P bond                       |
+| Beta (β)      | Rotation around the P-O5' bond                        |
+| Gamma (γ)     | Rotation around the C4'-C5' bond                      |
+| Delta (δ)     | Rotation around the C3'-O3' bond                      |
+| Epsilon (ε)   | Rotation around the C2'-C3' bond                      |
+| Zeta (ζ)      | Rotation around the C1'-C2' bond                      |
+| Chi (χ)       | Rotation around the N1-C1' bond for pyrimidines       |
+|               | Rotation around the N9-C1' bond for purines           |
