@@ -827,3 +827,9 @@ Tasks completed:
 | Zeta (ζ)      | Rotation around the C1'-C2' bond                      |
 | Chi (χ)       | Rotation around the N1-C1' bond for pyrimidines       |
 |               | Rotation around the N9-C1' bond for purines           |
+
+
+Next tasks:
+* look VMD 6 UT sequences
+* run puckering.sh for GC in work
+* python chart for torsion data
