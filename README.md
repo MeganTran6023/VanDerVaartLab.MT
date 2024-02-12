@@ -815,6 +815,8 @@ Tasks completed:
 * ran up to vac 6 for TU sequences above for further analysis in work_bgfs directory
 * ran torsion.sh on GC sequences in work directory -> important for seeing how register shift affected bases outside of site where register shift occurs?
 * on torsion.sh output file, 2nd column is average 3rd column is standard deviation
+
+
 | Torsion Angle | Description                                           |
 |---------------|-------------------------------------------------------|
 | Alpha (α)     | Rotation around the O3'-P bond                       |
