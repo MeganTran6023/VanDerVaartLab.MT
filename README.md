@@ -833,3 +833,17 @@ Next tasks:
 * look VMD 6 UT sequences
 * run puckering.sh for GC in work
 * python chart for torsion data
+
+## __2/11__
+Tasks completed:
+* reran up to vac 6 for TU sequences above for further analysis in work_bgfs directory (remove simtk in openmm in npt.py)
+* ran puckering.sh
+* got charmm submission for .dat file production to work
+    * fix charmm directory
+    * look in compilecharmm.temp for modules
+    * cd
+
+| Q | A                                           |
+|---------------|-------------------------------------------------------|
+| What is DNA puckering?     | 
+DNA puckering, by providing structural flexibility, aids in register shifts where bases may flip outside the helix, enabling adjacent bases to form alternative base pairings, thus maintaining DNA stability and functionality.                       |
