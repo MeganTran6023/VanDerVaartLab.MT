@@ -795,7 +795,7 @@ Major: CTCC,GTCT,TTCT
 * look at UT major sequences continued run on vmd 
 
 ## __2/10__
-TU sequences:
+TU sequences :
 * CTTA
 * CTTC
 * CTTT
@@ -851,3 +851,5 @@ DNA puckering, by providing structural flexibility, aids in register shifts wher
 ## __2/11__
 Tasks completed:
 * reran up to vac 6 for TU sequences above for further analysis in work_bgfs directory (add simtk in openmm in npt.py "from simtk import unit")
+
+* turns out the txt file had minor instead of major -> rerunning for majors looper_prod_continue.sh
