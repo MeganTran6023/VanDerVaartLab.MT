@@ -1,26 +1,22 @@
 #!/bin/bash
 
 # Set the current working directory as the project directory
-projectDir=$(pwd)
-
-base_dir=$1
 
 subd="in aj"
 
 base_path="/work/m/megantran"
 
-
 torsion_names="delta zeta beta alpha gamma epsilon chi"
 
-# Verify User input
-if [ -z "$base_dir" ]; then
-    echo "Error: dir_names variable is empty"
-    echo "Supply one of these as the argument to this script: XTUY, XCUY, or XUCY"
-    exit 1
-fi
 
-# List all subdirectories in the base directory - run in GC_XTUY - work directory
-subdirectories=($(find "$base_dir" -maxdepth 1 -type d -not -name "$base_dir"))
+# List all subdirectories in the base directory - run in GC_XTUY - work directory - these are register shifted of interest
+subdirectories_major=("GTCC CTCT GTCT TTCC CTCC TTCT ATCT" )
+subdirectories_minor=("CTCT ATCT")
+
+
+for item in $torsion_names; do
+    mkdir "$item"_torsion
+done
 
 
 # Loop through each subdirectory, find torsion dat files for each greek name 
@@ -31,8 +27,12 @@ for sub_dir in "${subdirectories[@]}"; do
                 #enter in directory
                  subdir_path="$sub_dir/prod/$dir/an/backbone/torsion/"
                  cd $subdir_path
-                #get respective .dat files
-                 cp $item*.dat
+                #get respective .dat files - each greeek letter own file
+                 cp $item*.dat "$base_path"/XTUY_GC/XTUY/"$item_torsion"
+
+                 done
+        done
+done
 
                  
 
