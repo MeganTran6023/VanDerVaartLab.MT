@@ -848,8 +848,14 @@ Tasks completed:
 | What is DNA puckering?     | 
 DNA puckering, by providing structural flexibility, aids in register shifts where bases may flip outside the helix, enabling adjacent bases to form alternative base pairings, thus maintaining DNA stability and functionality.     |
 
-## __2/11__
+## __2/13__
 Tasks completed:
 * reran up to vac 6 for TU sequences above for further analysis in work_bgfs directory (add simtk in openmm in npt.py "from simtk import unit")
 
 * turns out the txt file had minor instead of major -> rerunning for majors looper_prod_continue.sh
+
+## __2/14__
+
+* GC sequences to analyze data
+minors: CTCT,ATCT
+majors: GTCT,TTCC,CTCC,TTCT
