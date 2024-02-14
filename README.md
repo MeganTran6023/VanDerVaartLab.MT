@@ -859,3 +859,6 @@ Tasks completed:
 * GC sequences to analyze data
 minors: CTCT,ATCT
 majors: GTCT,TTCC,CTCC,TTCT
+
+* started script to get .dat files for torsion to plot on graph
+    *extract_torsion.sh
