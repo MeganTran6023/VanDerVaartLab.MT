@@ -862,3 +862,6 @@ majors: GTCT,TTCC,CTCC,TTCT
 
 * started script to get .dat files for torsion to plot on graph
     *extract_torsion.sh
+
+## __3/8__
+* ./XTUY/GTTG/build/data/minor/dna-cgcggttgcgcg-minor.prmtop
