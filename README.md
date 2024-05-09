@@ -866,6 +866,6 @@ majors: GTCT,TTCC,CTCC,TTCT
 ## __3/8__
 * ./XTUY/GTTG/build/data/minor/dna-cgcggttgcgcg-minor.prmtop
 
-##__5/9__
+## __5/9__
 
 I am wrapping up the Uracil-Flipping DNA project and will be leaving this lab to work in Dr. Templeton's Lab on Machine Learning with COncussion Patient Dataset.
